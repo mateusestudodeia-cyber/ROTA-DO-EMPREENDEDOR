@@ -1,0 +1,239 @@
+{
+ "fuso": "America/Sao_Paulo",
+ "canais": {
+  "youtube": "6b09b7348541f09ecbc42dcd",
+  "facebook": "6b09b6c78541f09ecbc41fe6",
+  "tiktok": "6b09b8078541f09ecbc456ff"
+ },
+ "organizacao": "69dbe35a215143c91dff6fb2",
+ "posts": [
+  {
+   "id": "ep01-p1-facebook",
+   "rede": "facebook",
+   "quando": "2026-12-01T12:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep01/partes/ep01_parte1.mp4",
+   "texto": "Ele vendeu 200 marmitas em um mês… e no fim sobrou ZERO. 😳\n\nO Carlos foi demitido depois de 4 anos no telemarketing e jurou nunca mais voltar pra fila de emprego. O que aconteceu depois vai te ensinar mais sobre negócio do que muito curso.\n\n▶ Parte 1 de 8 · a próxima sai hoje às 18h\n🎬 Episódio completo no YouTube: Rota do Empreendedor"
+  },
+  {
+   "id": "ep01-p1-tiktok",
+   "rede": "tiktok",
+   "quando": "2026-12-01T12:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep01/partes/ep01_parte1.mp4",
+   "titulo": "Demitido numa segunda. Jurou nunca mais voltar pra CLT 😳",
+   "texto": "Demitido numa segunda. Jurou nunca mais voltar pra CLT 😳 Parte 1/8 #empreendedorismo #clt #historia #negocios #marmita"
+  },
+  {
+   "id": "ep01-p2-facebook",
+   "rede": "facebook",
+   "quando": "2026-12-01T18:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep01/partes/ep01_parte2.mp4",
+   "texto": "\"Se eu cobrar 12, eu ganho no preço.\" 🤔\n\nO Carlos fez o que quase todo mundo faz quando abre um negócio: olhou o vizinho e cobrou menos. No caderno, a conta fechava. Na vida real…\n\nVocê já definiu preço assim? Conta aqui 👇\n\n▶ Parte 2 de 8 · amanhã ao meio-dia tem a parte 3"
+  },
+  {
+   "id": "ep01-p2-tiktok",
+   "rede": "tiktok",
+   "quando": "2026-12-01T18:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep01/partes/ep01_parte2.mp4",
+   "titulo": "O preço que ele escolheu no chute ia custar caro",
+   "texto": "Ele olhou o concorrente e cobrou mais barato. Erro clássico 🤦‍♂️ Parte 2/8 #empreendedorismo #precificacao #pequenonegocio #historia"
+  },
+  {
+   "id": "ep01-youtube",
+   "rede": "youtube",
+   "quando": "2026-12-01T18:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep01/ep01.mp4",
+   "titulo": "Demitido, trocou a CLT por marmitas e ficou no prejuízo",
+   "texto": "O Carlos foi demitido, começou a vender as marmitas da mãe na porta de uma fábrica… e vendeu 200 em um mês. No fim, descobriu que cada marmita custava mais do que ele cobrava.\n\nNeste episódio: como calcular o custo real de um produto, a diferença entre custo fixo e variável, margem de contribuição e ponto de equilíbrio — tudo dentro de uma história.\n\nCapítulos\n0:00 Duzentas marmitas, zero no caixa\n0:20 Demitido\n1:32 A ideia\n1:55 O preço no chute\n2:59 Pra onde foi o dinheiro\n4:33 A conta no guardanapo\n6:28 O preço certo\n7:19 O portão\n8:46 A lição\n\nFaça a conta do seu negócio: some tudo que cada venda gasta (inclusive o que parece de graça), some os custos do mês com o seu salário, e só então escolha o preço.\n\nPersonagens, empresas e valores são fictícios e ilustrativos.\n\nNovo episódio toda terça e quinta.",
+   "thumbnail": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep01/thumb.png"
+  },
+  {
+   "id": "ep01-p3-facebook",
+   "rede": "facebook",
+   "quando": "2026-12-02T12:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep01/partes/ep01_parte3.mp4",
+   "texto": "Esgotava todo dia. Fila na porta da fábrica. Fotos do isopor vazio no Instagram. 🔥\n\nMas tinha uma coisa estranha: o dinheiro entrava… e não ficava. Gás, embalagem, mototáxi, fiado… 🕳️\n\nVocê sabe pra onde vai o dinheiro do seu negócio?\n\n▶ Parte 3 de 8 · parte 4 hoje às 18h"
+  },
+  {
+   "id": "ep01-p3-tiktok",
+   "rede": "tiktok",
+   "quando": "2026-12-02T12:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep01/partes/ep01_parte3.mp4",
+   "titulo": "Vendia tudo todo dia… e o dinheiro sumia",
+   "texto": "Esgotava todo dia e mesmo assim o dinheiro sumia. Sabe por quê? 👀 Parte 3/8 #empreendedorismo #fluxodecaixa #negocios #marmita"
+  },
+  {
+   "id": "ep01-p4-facebook",
+   "rede": "facebook",
+   "quando": "2026-12-02T18:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep01/partes/ep01_parte4.mp4",
+   "texto": "\"O problema é que eu tô vendendo pouco.\" 😬\n\nO Carlos mandou a mãe dobrar a produção. Sobrou comida, sobrou cansaço… e às 5h10 da manhã, a panela de pressão escorregou.\n\nAí o melhor amigo pegou um guardanapo e fez a conta que ninguém tinha feito.\n\n▶ Parte 4 de 8 · amanhã ao meio-dia tem a revelação"
+  },
+  {
+   "id": "ep01-p4-tiktok",
+   "rede": "tiktok",
+   "quando": "2026-12-02T18:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep01/partes/ep01_parte4.mp4",
+   "titulo": "Ele achou que o problema era vender pouco. Errou feio",
+   "texto": "Ele dobrou a produção pra resolver… e quase destruiu a mãe 💔 Parte 4/8 #empreendedorismo #historia #familia #negocios"
+  },
+  {
+   "id": "ep01-p5-facebook",
+   "rede": "facebook",
+   "quando": "2026-12-03T12:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep01/partes/ep01_parte5.mp4",
+   "texto": "A conta no guardanapo: 🧾\nGastou R$ 2.487. Recebeu R$ 2.184.\n\nNão tinha sobrado zero. Tinha FALTADO R$ 303. Cada marmita custava R$ 12,44… e era vendida por R$ 12. 🤯\n\nE isso sem contar as 110 horas de trabalho da mãe, de graça.\n\nVocê já calculou o custo real do que vende?\n\n▶ Parte 5 de 8 · parte 6 hoje às 18h"
+  },
+  {
+   "id": "ep01-p5-tiktok",
+   "rede": "tiktok",
+   "quando": "2026-12-03T12:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep01/partes/ep01_parte5.mp4",
+   "titulo": "A conta no guardanapo que mudou tudo: −R$ 303",
+   "texto": "200 marmitas vendidas = −R$ 303. Ele pagava pro cliente almoçar 🤯 Parte 5/8 #empreendedorismo #custos #precificacao #negocios"
+  },
+  {
+   "id": "ep01-p6-facebook",
+   "rede": "facebook",
+   "quando": "2026-12-03T18:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep01/partes/ep01_parte6.mp4",
+   "texto": "\"Teu pai era igualzinho. A oficina vivia lotada. Perdeu tudo… menos o cliente.\" 💔\n\nO Carlos passou a vida com medo de virar o pai. E tinha feito exatamente o que ele fez: confundiu movimento com lucro.\n\nNaquela madrugada, ele refez o preço do jeito certo.\n\n▶ Parte 6 de 8 · amanhã ao meio-dia: o dia do preço novo"
+  },
+  {
+   "id": "ep01-p6-tiktok",
+   "rede": "tiktok",
+   "quando": "2026-12-03T18:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep01/partes/ep01_parte6.mp4",
+   "titulo": "\"Teu pai era igualzinho.\" A frase que doeu",
+   "texto": "A mãe contou por que a oficina do pai quebrou… e ele entendeu tudo 💔 Parte 6/8 #empreendedorismo #historia #licaodevida #negocios"
+  },
+  {
+   "id": "ep02-youtube",
+   "rede": "youtube",
+   "quando": "2026-12-03T18:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep02/ep02.mp4",
+   "titulo": "Ganhou R$ 5.700 numa manhã — e terminou no vermelho",
+   "texto": "Um vídeo viralizou e 300 pedidos pagos chegaram numa manhã. A cozinha da Dona Lúcia fazia 60. O Carlos disse \"a gente dá um jeito\"… e o dia de maior venda da vida dele terminou R$ 600 no vermelho.\n\nNeste episódio: capacidade de produção, gargalo (a etapa mais lenta manda), linha de montagem, lista de espera e por que dizer \"não\" também é atendimento.\n\nCapítulos\n0:00 300 pedidos, capacidade 60\n0:22 R$ 5.700 numa manhã\n0:54 O improviso\n1:33 Quarta, 4h da manhã\n2:01 A promessa\n2:28 Os comentários\n3:48 O elo mais fraco\n5:05 A linha de montagem\n5:56 R$ 2.500 recusados\n7:38 A lição\n\nPersonagens, empresas e valores são fictícios e ilustrativos.\n\nNovo episódio toda terça e quinta.",
+   "thumbnail": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep02/thumb.png"
+  },
+  {
+   "id": "ep01-p7-facebook",
+   "rede": "facebook",
+   "quando": "2026-12-04T12:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep01/partes/ep01_parte7.mp4",
+   "texto": "Segunda-feira, 11h30, portão da fábrica. Cartaz novo: R$ 19. 😰\n\nO cliente mais fiel leu, leu de novo… \"Tá doido? O Bigode cobra 15.\"\n\nA mão dele foi sozinha até o marcador. Era só riscar e voltar pros R$ 12…\n\nO que você faria no lugar dele? 👇\n\n▶ Parte 7 de 8 · final hoje às 18h"
+  },
+  {
+   "id": "ep01-p7-tiktok",
+   "rede": "tiktok",
+   "quando": "2026-12-04T12:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep01/partes/ep01_parte7.mp4",
+   "titulo": "Subiu o preço de R$ 12 pra R$ 19. Os clientes reagiram assim…",
+   "texto": "\"Dezenove? Tá doido?\" Ele quase apagou o preço novo 😰 Parte 7/8 #empreendedorismo #precificacao #vendas #negocios"
+  },
+  {
+   "id": "ep01-p8-facebook",
+   "rede": "facebook",
+   "quando": "2026-12-04T18:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep01/partes/ep01_parte8.mp4",
+   "texto": "Vendeu MENOS… e pela primeira vez sobrou dinheiro. 💚\n\nE a lição que fica: some tudo que cada venda gasta (até o que parece de graça), coloque o seu salário nos custos do mês e só então escolha o preço.\n\nMas o fim tem uma reviravolta: 300 pedidos numa noite. A cozinha fazia 60. 😱\n\n▶ Parte 8 de 8 · o próximo episódio começa sábado ao meio-dia\n🎬 Episódio completo no YouTube: Rota do Empreendedor"
+  },
+  {
+   "id": "ep01-p8-tiktok",
+   "rede": "tiktok",
+   "quando": "2026-12-04T18:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep01/partes/ep01_parte8.mp4",
+   "titulo": "Vendeu menos e ganhou mais. E então chegaram 300 pedidos…",
+   "texto": "Vendeu menos, lucrou pela 1ª vez… e então: 300 pedidos numa noite 😱 Parte 8/8 #empreendedorismo #lucro #historia #negocios"
+  },
+  {
+   "id": "ep02-p1-facebook",
+   "rede": "facebook",
+   "quando": "2026-12-05T12:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep02/partes/ep02_parte1.mp4",
+   "texto": "R$ 5.700 na conta numa única manhã. 300 pedidos pagos. 💸\n\nO problema? A cozinha da mãe faz 60 marmitas por dia. Com sorte.\n\nO Carlos tinha duas opções: dizer \"não\" pra 240 pessoas… ou \"sim\" pra todas. Ele escolheu a errada.\n\n▶ Parte 1 de 6 · parte 2 hoje às 18h\n🎬 Episódio completo no YouTube: Rota do Empreendedor"
+  },
+  {
+   "id": "ep02-p1-tiktok",
+   "rede": "tiktok",
+   "quando": "2026-12-05T12:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep02/partes/ep02_parte1.mp4",
+   "titulo": "300 pedidos pagos numa noite. A cozinha fazia 60 😱",
+   "texto": "300 pedidos pagos numa noite. A cozinha fazia 60. Ele disse \"sim\" pra todos 😱 Parte 1/6 #empreendedorismo #viral #negocios #historia"
+  },
+  {
+   "id": "ep02-p2-facebook",
+   "rede": "facebook",
+   "quando": "2026-12-05T18:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep02/partes/ep02_parte2.mp4",
+   "texto": "Quarta, 4h da manhã. Seis pessoas numa cozinha feita pra uma. 🍳\n\nÀs 10h, 70 prontas. De 300. E ele mandou pra todo mundo: \"Chega até meio-dia e meia!\" 😬\n\nÀs 15h, vieram os comentários. Alguém escreveu: \"golpe?\"\n\nJá prometeu mais do que conseguia entregar?\n\n▶ Parte 2 de 6 · amanhã ao meio-dia tem a parte 3"
+  },
+  {
+   "id": "ep02-p2-tiktok",
+   "rede": "tiktok",
+   "quando": "2026-12-05T18:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep02/partes/ep02_parte2.mp4",
+   "titulo": "Prometeu entregar 300 até meio-dia… olha o que aconteceu",
+   "texto": "Prometeu 300 marmitas até 12h30. Às 15h vieram os comentários: \"golpe?\" 😬 Parte 2/6 #empreendedorismo #atendimento #negocios"
+  },
+  {
+   "id": "ep02-p3-facebook",
+   "rede": "facebook",
+   "quando": "2026-12-06T12:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep02/partes/ep02_parte3.mp4",
+   "texto": "\"Você postou sem me perguntar!\"\n\"Eu postei, Carlos. Quem prometeu foi você.\" 💔\n\n120 pedidos cancelados. R$ 2.280 devolvidos. O dia de maior venda da vida dele terminou R$ 600 no vermelho.\n\nE à noite, o dedo dele parou em cima do botão \"excluir perfil\"…\n\n▶ Parte 3 de 6 · parte 4 hoje às 18h"
+  },
+  {
+   "id": "ep02-p3-tiktok",
+   "rede": "tiktok",
+   "quando": "2026-12-06T12:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep02/partes/ep02_parte3.mp4",
+   "titulo": "O dia de maior venda terminou R$ 600 no vermelho",
+   "texto": "Maior dia de vendas da vida dele = −R$ 600 e uma briga com a irmã 💔 Parte 3/6 #empreendedorismo #negocios #familia #historia"
+  },
+  {
+   "id": "ep02-p4-facebook",
+   "rede": "facebook",
+   "quando": "2026-12-06T18:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep02/partes/ep02_parte4.mp4",
+   "texto": "\"Corrente não arrebenta onde tá mais forte. Arrebenta no elo mais fraco.\" 🔗\n\nO Seu Jairo pegou um saco de pão e desenhou: comprar → cozinhar → montar → entregar.\n\nO fogão fazia 30 por hora. A mãe montava 15. A cozinha nunca fez 60 por causa do fogão… era a MESA.\n\nQual é o elo mais fraco do seu negócio? 👇\n\n▶ Parte 4 de 6 · amanhã ao meio-dia tem a parte 5"
+  },
+  {
+   "id": "ep02-p4-tiktok",
+   "rede": "tiktok",
+   "quando": "2026-12-06T18:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep02/partes/ep02_parte4.mp4",
+   "titulo": "\"O problema não era o fogão, era a mesa\"",
+   "texto": "Um senhor da ferragem desenhou num saco de pão o erro que quase quebrou ele 🔗 Parte 4/6 #empreendedorismo #processos #gargalo #negocios"
+  },
+  {
+   "id": "ep02-p5-facebook",
+   "rede": "facebook",
+   "quando": "2026-12-07T12:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep02/partes/ep02_parte5.mp4",
+   "texto": "80 vagas esgotadas em 12 minutos. 140 na lista de espera. ✅\n\nAí o telefone toca: \"Preciso de 100 marmitas pra amanhã. Pago R$ 25 cada.\" 💰\n\nR$ 2.500. Quatro vezes o prejuízo da quarta. E o Carlos respondeu: \"Amanhã eu não consigo.\"\n\nVocê aceitaria? 👇\n\n▶ Parte 5 de 6 · final hoje às 18h"
+  },
+  {
+   "id": "ep02-p5-tiktok",
+   "rede": "tiktok",
+   "quando": "2026-12-07T12:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep02/partes/ep02_parte5.mp4",
+   "titulo": "Recusou R$ 2.500 em uma ligação. Loucura ou genialidade?",
+   "texto": "Ofereceram R$ 2.500 pra amanhã. Ele disse não 😳 Loucura ou genialidade? Parte 5/6 #empreendedorismo #negociacao #negocios"
+  },
+  {
+   "id": "ep02-p6-facebook",
+   "rede": "facebook",
+   "quando": "2026-12-07T18:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep02/partes/ep02_parte6.mp4",
+   "texto": "Quarta: 300 pedidos → −R$ 600. 😬\nSexta: 80 pedidos → +R$ 648. 💚\n\nCrescer além do que você aguenta não é crescer. É quebrar uma promessa em escala.\n\nE o final: o homem que ouviu \"não\" ligou de novo. \"Quero 400 marmitas por semana. Só preciso de nota fiscal.\" O Carlos não tinha empresa. Tinha uma família.\n\n▶ Parte 6 de 6 · novo episódio terça ao meio-dia\n🎬 Episódio completo no YouTube: Rota do Empreendedor"
+  },
+  {
+   "id": "ep02-p6-tiktok",
+   "rede": "tiktok",
+   "quando": "2026-12-07T18:00:00-03:00",
+   "video": "https://raw.githubusercontent.com/mateusestudodeia-cyber/rota-do-empreendedor/main/episodios/ep02/partes/ep02_parte6.mp4",
+   "titulo": "Vendeu 80 em vez de 300 e lucrou mais. Mas aí ligaram de novo…",
+   "texto": "80 pedidos deram mais lucro que 300. E então: \"quero 400 por semana… com nota fiscal\" 😱 Parte 6/6 #empreendedorismo #lucro #historia"
+  }
+ ]
+}
