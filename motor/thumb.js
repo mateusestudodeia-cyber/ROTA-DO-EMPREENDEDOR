@@ -19,4 +19,4 @@ const THUMBS={
 (async()=>{const {chromium}=require('playwright');const b=await chromium.launch();const p=await b.newPage({viewport:{width:1920,height:1080}});
  await p.setContent(`<body style="margin:0"><svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080">${THUMBS[EP]()}</svg></body>`);
  const out=`/home/user/estudio/episodios/${EP}/thumb_1920.png`;await p.screenshot({path:out});await b.close();
- require('child_process').execSync(`ffmpeg -loglevel error -y -i ${out} -vf scale=1280:720 /home/user/estudio/episodios/${EP}/thumb.png && rm ${out}`);console.log('thumb ok',EP);})();
+ require('child_process').execSync(`ffmpeg -loglevel error -y -i ${out} -vf scale=1280:720 /home/user/estudio/episodios/${EP}/thumb.png && ffmpeg -loglevel error -y -i ${out} -vf scale=320:180 /home/user/estudio/episodios/${EP}/thumb_mini.jpg && rm ${out}`);console.log('thumb ok',EP);})();

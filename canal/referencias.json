@@ -1,0 +1,27 @@
+{
+ "nota": "Canais brasileiros de negócios/dinheiro usados só como referência de títulos (não copiar títulos; extrair padrões).",
+ "handles": [
+  "@primorico",
+  "@MePoupe",
+  "@nathfinancas",
+  "@joeljota",
+  "@Sebrae",
+  "@InfoMoney",
+  "@exame",
+  "@brunoperini"
+ ],
+ "excluir": [
+  "Nosso Canto",
+  "Liniker",
+  "Marina Sena",
+  "Garotin",
+  "LULA",
+  "FLÁVIO",
+  "Flávio",
+  "Tarcísio",
+  "Inmet",
+  "tornado",
+  "vendaval",
+  "granizo"
+ ]
+}

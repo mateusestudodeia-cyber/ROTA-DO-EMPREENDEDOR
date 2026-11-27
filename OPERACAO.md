@@ -111,7 +111,8 @@ Trabalhe sempre em `/home/user/estudio`. Playwright e FFmpeg já vêm instalados
    - **Carlos grande, com expressão extrema** (desespero, choque, raiva, euforia), ocupando ~40% da imagem.
    - **Um número em reais** grande (perda em vermelho, ganho em verde) e **no máximo 3 palavras**.
    - **Contraste:** fundo simples e de cor oposta ao sujeito; o Carlos e o número precisam "saltar" mesmo em miniatura.
-     Confira reduzindo para 320x180: se não der para ler/entender, simplifique.
+     O `thumb.js` gera também `thumb_mini.jpg` (320x180, tamanho real no celular): olhe só ela; se não der para
+     entender em 1 segundo, simplifique.
    - **Lacuna:** mostre o problema (o "o quê"), nunca a solução (o "porquê").
    - 1 elemento de contexto no máximo (marmita, celular, conta), nada de poluição visual.
 6. `episodios/epNN/publicacao.json` no formato do ep02: título, descrição com capítulos e tags.
@@ -119,7 +120,9 @@ Trabalhe sempre em `/home/user/estudio`. Playwright e FFmpeg já vêm instalados
    **TÍTULO DO YOUTUBE (regra do usuário):** no máximo **60 caracteres** (confira com `python3 -c "print(len('título'))"`).
    O título precisa: dar um **choque**, criar **curiosidade**, mostrar que aquilo é de **extrema importância**,
    **chamar a atenção** e ser **interessante de ver**. Escreva 10 opções, dê nota de 0 a 10 em cada um desses 5 critérios
-   e escolha a de maior soma. Use o fato mais forte e verdadeiro do episódio (número, perda, virada); nada de promessa
+   e escolha a de maior soma. **Ferramenta:** escreva as 10 opções em `episodios/epNN/titulos.txt` (uma por linha) e rode
+   `python3 motor/titulos.py episodios/epNN/titulos.txt` (nota 0–100 pelas regras do canal, inspirada no score do
+   yt-metadata-studio). Escolha uma opção com nota ≥ 85 que seja fiel ao episódio e use os padrões de `titulos_referencia.md`. Use o fato mais forte e verdadeiro do episódio (número, perda, virada); nada de promessa
    falsa. Tom **emocionante**: virada, contraste ou perda que faz a pessoa sentir algo.
    **MAIÚSCULAS ESTRATÉGICAS:** 1 a 3 palavras em CAIXA ALTA, sempre na parte que dá o choque ou a virada
    (nunca o título inteiro). Use reticências "…" para criar suspense antes da virada.
@@ -132,7 +135,7 @@ Trabalhe sempre em `/home/user/estudio`. Playwright e FFmpeg já vêm instalados
    puxam mais clique que palavras de raiva ou medo. Valor em reais sempre que possível. Nunca entregue a solução no título.
    Fontes: Robertson et al., Nature Human Behaviour 2023 (Upworthy, 105 mil manchetes: palavra negativa ↑ cliques);
    Journal of Business Research 2024 e Internet Research 2020 (YouTube: emoção intensa ↑ views; título informativo demais ↓).
-   Exemplos aprovados: "DEMITIDO, arriscou o acerto num negócio e PERDEU DINHEIRO" (57) ·
+   Exemplos aprovados: "DEMITIDO, arriscou R$ 3.100 num negócio… e PERDEU DINHEIRO" (57) ·
    "Faturou R$ 5.700 numa MANHÃ… e PERDEU DINHEIRO no mesmo dia" (59).
 
 ### 4.4 Partes verticais (TikTok/Facebook)
@@ -202,6 +205,9 @@ A narração é um instrumento de atenção. Escreva o texto para o OUVIDO, não
     Use isso de propósito: a pontuação é a direção de voz do Kokoro.
 
 ## 4C. Aprender com os números (todo domingo, antes de escrever os roteiros)
+- Rode `python3 motor/pesquisa_titulos.py` (lógica do HookLab: vídeos que explodiram em canais BR de negócios/dinheiro,
+  outlier = views ÷ mediana do canal, só feeds públicos e gratuitos do YouTube). Leia a tabela de `canal/titulos_referencia.md`
+  e anote 3 padrões de título/tema que estão funcionando (nunca copie títulos de outros canais).
 - Se o Buffer permitir, consulte as métricas da semana anterior (`get_aggregated_post_metrics` e posts com mais alcance).
 - Registre em `canal/aprendizados.md` (curto): o que teve mais alcance/engajamento e por quê (tema, título, gancho).
 - Use isso para escolher os temas, títulos e ganchos da nova semana. Se não houver métricas, registre "sem dados".
