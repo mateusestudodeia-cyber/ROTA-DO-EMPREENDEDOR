@@ -9,94 +9,75 @@ const S=(t,n,v=.6)=>({t,n,v});
 const RED='#E4572E',GREEN='#3FA34D',TEAL='#1E88A8';
 const cenas=[];
 
-// 1 — GANCHO
-{const c=1,a=C(c,{trilha:[{t:ini(c),f:'leve'},{t:T(c,3),f:null},{t:T(c,4),f:'tensa'}],chao:910});
- const t1=T(c,1);
- a.itens.push(fig('carlos',960,1.5,ini(c),{t1:t1,expr:'feliz',anim:'none'}));
- [[560,700],[1360,700],[480,520],[1440,520],[640,360],[1280,360],[420,860],[1500,860]].forEach(([x,y],k)=>{a.itens.push(prop('marmita',x,y,.9,T(c,0,.15+k*.17),{t1,args:t=>({vapor:t})}));a.sfx.push(S(T(c,0,.15+k*.17),'pop',.4))});
- a.itens.push(txt('200 MARMITAS',960,170,120,T(c,0),{t1}));a.sfx.push(S(T(c,0),'slam',.8));
- a.shake=[{t:T(c,0,.05),amp:14}];
- // caixa subindo
- const t2=T(c,2);
- a.itens.push(fig('carlos',620,1.5,t1,{t1:t2,anim:'dir',estados:[{t:t1,expr:'feliz'},{t:F(c,1,-.6),pose:'comemorando',expr:'rindo',pular:1}]}));
- for(let k=0;k<9;k++) a.itens.push(prop('nota',1250+Math.sin(k*2.1)*260,620-(k%3)*120,.9,t1+.2+k*.22,{t1:t2,anim:'cair',rot:(k*37)%50-25}));
- a.itens.push({tipo:'contador',de:0,ate:2400,fmt:'brl',x:1300,y:300,sz:150,cor:GREEN,t0:t1,t1:t2,dur:F(c,1)-t1,anim:'none'});
- a.sfx.push(S(t1-.05,'whoosh',.7));for(let k=0;k<14;k++)a.sfx.push(S(t1+.1+k*.16,'tick',.3));a.sfx.push(S(F(c,1),'caixa',.7));
- // rico
- const t3=T(c,3);
- a.itens.push(fig('carlos',960,1.5,t2,{t1:T(c,4),anim:'none',estados:[{t:t2,pose:'bracos_cruzados',expr:'determinado'},{t:t3+.3,pose:'triste',expr:'surpreso'}]}));
- a.itens.push({tipo:'prop',nome:'pensamento',x:1330,y:400,s:.9,t0:t2+.4,t1:t3+.3,args:{txt:'RICO!'},anim:'pop'});
- a.cam=[{t:ini(c),s:1,x:960,y:540},{t:t2,s:1.25,x:1060,y:560,dur:2},{t:t3+.3,s:1,x:960,y:540,dur:.01}];
- a.filtros=[{t0:t3,t1:t3+.3,tipo:'pb'}]; a.itens.push(txt('ESPERA…',960,150,90,t3,{t1:t3+.3,anim:'none'}));a.sfx.push(S(t3,'risco',.9));
- [['GÁS','R$ ???'],['EMBALAGEM','R$ ???'],['FIADO','R$ ???']].forEach(([n,v],k)=>{a.itens.push({tipo:'prop',nome:'conta',x:420+k*540,y:[260,230,260][k],s:.8,rot:(k-1)*9,t0:t3+.5+k*.45,t1:T(c,4),anim:'cair',args:{titulo:n,valor:v}});a.sfx.push(S(t3+.5+k*.45+.35,'papel',.5))});
- // R$ 0
- const t4=T(c,4);
- a.fundos=[{t:ini(c),cor:'#FAF7F0'},{t:t4+.55,cor:'#F6D9D2'},{t:T(c,5),cor:'#FAF7F0'}];
- a.itens.push(fig('carlos',960,1.6,t4,{t1:T(c,5),anim:'none',estados:[{t:t4,pose:'desespero',expr:'desesperado'}]}));
- a.itens.push(txt('R$ 0',960,330,260,t4+.55,{t1:T(c,5),cor:RED}));a.sfx.push(S(t4+.55,'impact',1),S(t4+.55,'slam',.6));a.shake.push({t:t4+.55,amp:26,dur:.5});
- // quem pagava a conta
- a.itens.push(fig('carlos',760,1.5,T(c,5),{anim:'none',estados:[{t:T(c,5),pose:'triste',expr:'triste'}]}));
- a.itens.push(fig('lucia',1350,1.4,T(c,6),{anim:'fade',estados:[{t:T(c,6),pose:'mexendo',expr:'cansado'}]}));
- a.itens.push(prop('fogao',1600,910,.9,T(c,6),{anim:'fade'}));
- a.cam.push({t:T(c,5),s:1.15,x:900,y:560,dur:3});
+// 1 — QUEM É O CARLOS
+{const c=1,a=C(c,{trilha:[{t:ini(c),f:'leve'},{t:T(c,4),f:'tensa'}],chao:910});
+ const d=i=>F(c,i)-T(c,i);
+ a.itens.push(fig('carlos',700,1.45,ini(c),{anim:'none',mov:[{t:ini(c),x:-200},{t:ini(c)+.05,x:700,dur:1.6}],andar:[ini(c),ini(c)+1.65],
+   estados:[{t:ini(c)+1.7,pose:'acenando',expr:'feliz'},{t:T(c,1),pose:'em_pe',expr:'surpreso'},{t:T(c,1,d(1)*.6),expr:'determinado'},{t:T(c,2),pose:'apontando',expr:'feliz'},{t:T(c,3),pose:'comemorando',expr:'rindo'},{t:T(c,4),pose:'desespero',expr:'desesperado'},{t:T(c,5),pose:'pensando',expr:'pensativo'},{t:T(c,6),pose:'triste',expr:'triste'}]}));
+ a.itens.push(txt('CARLOS, 26 ANOS',700,230,64,T(c,0,.8),{t1:T(c,1),anim:'pop',cor:TEAL}));a.sfx.push(S(T(c,0,.8),'pop',.5));
+ a.itens.push({tipo:'svg',t0:T(c,1),t1:T(c,2),anim:'pop',x:1300,y:480,svg:`<rect x="-120" y="-150" width="240" height="300" rx="18" fill="#fff" stroke="#1A1A1A" stroke-width="8"/><circle cx="0" cy="-50" r="45" fill="#ddd" stroke="#1A1A1A" stroke-width="6"/><text y="80" font-family="DejaVu Sans" font-weight="800" font-size="40" text-anchor="middle">CRACHÁ</text><line x1="-150" y1="-180" x2="150" y2="180" stroke="${RED}" stroke-width="22"/><line x1="150" y1="-180" x2="-150" y2="180" stroke="${RED}" stroke-width="22"/>`});
+ a.itens.push(txt('DEMITIDO',1300,230,90,T(c,1,.6),{t1:T(c,2),cor:RED}));a.sfx.push(S(T(c,1,.6),'carimbo',.7));
+ a.itens.push(prop('isopor',1180,910,1,T(c,2),{t1:T(c,4)}),fig('lucia',1550,1.3,T(c,2,.4),{t1:T(c,4),estados:[{t:0,pose:'mexendo',expr:'feliz'}]}),txt('AS MARMITAS DA MÃE',1350,230,64,T(c,2,.2),{t1:T(c,3),anim:'pop'}));
+ a.sfx.push(S(T(c,2),'pop',.5),S(T(c,2,.4),'pop',.5));
+ a.itens.push({tipo:'contador',de:0,ate:200,suf:' MARMITAS',x:1300,y:230,sz:100,cor:GREEN,t0:T(c,3),t1:T(c,4),dur:d(3),anim:'pop'});
+ for(let k=0;k<8;k++)a.sfx.push(S(T(c,3)+k*d(3)/8,'tick',.35));
+ a.fundos=[{t:ini(c),cor:'#FAF7F0'},{t:T(c,4),cor:'#F6D9D2'},{t:T(c,5),cor:'#FAF7F0'}];
+ a.itens.push(txt('SOBROU: R$ 0',1300,300,120,T(c,4,.6),{t1:T(c,5),cor:RED}));a.sfx.push(S(T(c,4,.6),'impact',.9));a.shake=[{t:T(c,4,.6),amp:20}];
+ a.itens.push(txt('PRA ONDE FOI O DINHEIRO?',960,190,84,T(c,5)));a.sfx.push(S(T(c,5),'slam',.6));
+ a.itens.push(fig('lucia',1250,1.2,T(c,6),{anim:'fade',estados:[{t:0,pose:'triste',expr:'cansado'}]}),fig('bia',1500,1.2,T(c,6),{anim:'fade',estados:[{t:0,pose:'triste',expr:'triste'}]}));
  cenas.push(a);}
 
-// 2 — A CAIXA DE PAPELÃO
+// 2 — A DEMISSÃO
 {const c=2,a=C(c,{trilha:'pad',trans:'preto'});
- a.itens.push(txt('30 DIAS ANTES',380,140,64,T(c,0),{cor:RED,rot:-6,t1:T(c,1)}));a.sfx.push(S(T(c,0),'carimbo',.6));
- a.itens.push(prop('predio',1450,910,1,T(c,0),{anim:'fade'}));
- a.itens.push(fig('carlos',1250,1.4,T(c,0),{anim:'fade',mov:[{t:T(c,0),x:1250},{t:T(c,0,.6),x:820,dur:2.2}],estados:[{t:T(c,0),pose:'segurando',expr:'neutro',mao:'caixa'}]}));
- a.itens.push(txt('4 ANOS · TELEMARKETING',960,230,52,T(c,1),{t1:T(c,2),anim:'pop'}));a.itens.push(txt('MELHOR VENDEDOR · 3×',960,310,46,T(c,1,1.6),{t1:T(c,2),anim:'pop',cor:TEAL}));
- a.sfx.push(S(T(c,1),'pop',.5),S(T(c,1,1.6),'ding',.4));
- a.itens.push(prop('catraca',1100,910,1.2,T(c,2),{args:{negado:true}}));
- a.itens.push(txt('ACESSO NEGADO',1150,300,64,T(c,2,1.4),{t1:T(c,3),cor:RED}));a.sfx.push(S(T(c,2,1.4),'erro',.6));
- a.itens[2].estados.push({t:T(c,2,1.4),expr:'surpreso'},{t:T(c,3),expr:'triste'});
- a.itens.push(txt('CORTE DE CUSTOS',960,200,80,T(c,3),{cor:RED,rot:-4,t1:T(c,4)}));a.sfx.push(S(T(c,3),'carimbo',.8));a.shake=[{t:T(c,3),amp:12}];
- a.itens.push({tipo:'contador',de:0,ate:3100,fmt:'brl',x:500,y:300,sz:110,cor:GREEN,t0:T(c,4),dur:1.5,anim:'pop'});
- a.itens[2].estados.push({t:T(c,5,1),expr:'determinado',pose:'em_pe'});
- a.itens.push(txt('EU NÃO VOLTO PRA FILA.',960,190,76,T(c,5,1.2)));
- a.cam=[{t:ini(c),s:1,x:960,y:540},{t:T(c,5,1),s:1.5,x:820,y:520,dur:.25}];a.sfx.push(S(T(c,5,1),'whoosh',.5));
+ a.itens.push(txt('SEGUNDA-FEIRA',960,150,70,T(c,0),{t1:T(c,1),anim:'pop',cor:TEAL}));
+ a.itens.push(prop('predio',1500,910,1,ini(c),{anim:'fade'}));
+ a.itens.push(fig('carlos',700,1.4,ini(c),{anim:'fade',mov:[{t:T(c,2),x:700},{t:T(c,2,.1),x:950,dur:1.2}],andar:[T(c,2),T(c,2,1.3)],
+   estados:[{t:0,pose:'em_pe',expr:'feliz'},{t:T(c,2,1.4),expr:'surpreso'},{t:T(c,3),expr:'triste'},{t:T(c,4),pose:'segurando',expr:'triste',mao:'caixa'},{t:T(c,5),pose:'em_pe',expr:'determinado',mao:''}]}));
+ a.itens.push(txt('CALL CENTER · 4 ANOS',960,150,62,T(c,1),{t1:T(c,1,2),anim:'pop'}),txt('UM DOS MELHORES VENDEDORES',960,150,56,T(c,1,2),{t1:T(c,2),anim:'pop',cor:TEAL}));
+ a.itens.push(prop('catraca',1150,910,1.2,T(c,2),{args:{negado:true}}),txt('ACESSO NEGADO',900,280,70,T(c,2,1.4),{t1:T(c,3),cor:RED}));a.sfx.push(S(T(c,2,1.4),'erro',.6));
+ a.itens.push(txt('CORTE DE CUSTOS',960,200,84,T(c,3),{t1:T(c,4),cor:RED,rot:-4}));a.sfx.push(S(T(c,3),'carimbo',.8));a.shake=[{t:T(c,3),amp:12}];
+ a.itens.push({tipo:'contador',de:0,ate:3100,fmt:'brl',pre:'ACERTO: ',x:960,y:200,sz:90,cor:GREEN,t0:T(c,4),t1:T(c,5),dur:1.5,anim:'pop'});
+ a.fixos=[txt('VOU ABRIR MEU PRÓPRIO NEGÓCIO',960,170,72,T(c,5,1))];a.sfx.push(S(T(c,5,1),'slam',.6));
+ a.cam=[{t:ini(c),s:1,x:960,y:540},{t:T(c,5,.9),s:1.4,x:900,y:540,dur:.3}];
  cenas.push(a);}
 
-// 3 — A CASA E A PLACA
-{const c=3,a=C(c,{trilha:[{t:ini(c),f:'leve_lenta'},{t:T(c,4),f:'pad'}],trans:'whoosh'});
- a.itens.push(prop('fogao',220,910,1,ini(c),{anim:'none'}),prop('panela',220,680,.8,ini(c),{anim:'none'}));
- a.itens.push(prop('mesa',650,760,.8,ini(c),{anim:'none'}),prop('maquinaCostura',650,748,.8,ini(c),{anim:'none'}));
- a.itens.push(fig('lucia',650,1.3,T(c,0),{anim:'fade',estados:[{t:T(c,0),pose:'segurando',expr:'feliz'}]}));
- a.itens.push(fig('bia',1300,1.3,T(c,1),{estados:[{t:T(c,1),pose:'celular',expr:'neutro'},{t:T(c,2),expr:'rindo'}]}));
- a.itens.push(bal('Demitido? Bem-vindo ao\nclube dos sem-crachá.',1300,450,T(c,2),F(c,2,.4)));
- a.itens.push(fig('carlos',980,1.4,ini(c),{anim:'none',estados:[{t:ini(c),pose:'em_pe',expr:'neutro'},{t:T(c,3),expr:'rindo'},{t:T(c,3,1.4),expr:'envergonhado'}]}));
- a.itens.push(prop('guardaRoupa',1720,910,1,ini(c),{anim:'none'}),prop('placa',1720,385,.5,ini(c),{anim:'none'}));
- a.cam=[{t:ini(c),s:1,x:960,y:540},{t:T(c,4),s:1.3,x:1500,y:520,dur:1.4},{t:T(c,5),s:2.4,x:1720,y:385,dur:1}];
- // flashback (região x 4000)
- const fb=T(c,6);
- a.cam.push({t:fb,s:1,x:4000,y:540,dur:.01},{t:T(c,8),s:1.4,x:3800,y:620,dur:2});
- a.filtros=[{t0:fb,t1:fim(c),tipo:'sepia'}];
- a.itens.push(prop('portaAco',4000,910,1.6,fb,{anim:'fade',args:t=>({fechado:t<T(c,7)?0.15:Math.min(1,.15+(t-T(c,7))/1.2)})}));
- a.itens.push(prop('placa',4000,370,.8,fb,{anim:'fade'}));
- a.itens.push(fig('pai',4200,1.4,fb,{anim:'fade',espelhar:true,mov:[{t:fb,x:4200},{t:T(c,7,1.2),x:4900,dur:2.5}],andar:[T(c,7,1.2),T(c,7,3.7)]}));
- a.itens.push(fig('carlos',3600,.85,T(c,8),{anim:'fade',estados:[{t:T(c,8),pose:'triste',expr:'triste'}]}));
- a.sfx.push(S(T(c,7),'porta',.7));
+// 3 — A FAMÍLIA E O MEDO
+{const c=3,a=C(c,{trilha:[{t:ini(c),f:'leve_lenta'},{t:T(c,3),f:'pad'}],trans:'whoosh'});
+ const d0=F(c,0)-T(c,0),fb=T(c,4),volta=T(c,6);
+ a.itens.push(prop('fogao',220,910,1,ini(c),{anim:'none',t1:fb}),prop('panela',220,680,.8,ini(c),{anim:'none',t1:fb}));
+ a.itens.push(fig('lucia',600,1.3,ini(c),{anim:'none',t1:fb,estados:[{t:0,pose:'mexendo',expr:'feliz'}]}),txt('DONA LÚCIA · MÃE',600,330,46,T(c,0,.3),{t1:T(c,1),anim:'pop',cor:TEAL}));
+ a.itens.push(fig('bia',1350,1.3,T(c,0,d0*.6),{t1:fb,estados:[{t:0,pose:'celular',expr:'neutro'},{t:T(c,2),expr:'rindo'}]}),txt('BIA · IRMÃ, 17',1350,330,46,T(c,0,d0*.6),{t1:T(c,1),anim:'pop',cor:TEAL}));
+ a.itens.push(fig('carlos',980,1.35,ini(c),{anim:'none',t1:fb,estados:[{t:0,pose:'em_pe',expr:'feliz'},{t:T(c,1),expr:'envergonhado'},{t:T(c,3),pose:'triste',expr:'triste'}]}));
+ a.itens.push(bal('Bem-vindo ao clube\ndos desempregados.',1350,430,T(c,2),F(c,2,.4)));
+ a.cam=[{t:ini(c),s:1,x:960,y:540},{t:T(c,3),s:1.6,x:980,y:560,dur:1.5},{t:fb,s:1,x:4000,y:540,dur:.01},{t:volta,s:1,x:960,y:540,dur:.01}];
+ a.filtros=[{t0:fb,t1:volta,tipo:'sepia'}];
+ a.itens.push(txt('12 ANOS ANTES',4000,140,72,fb,{t1:volta,anim:'pop',cor:'#1A1A1A'}));
+ a.itens.push(prop('portaAco',3700,910,1.3,fb,{t1:volta,anim:'none',args:t=>({fechado:t<T(c,5)?0.15:Math.min(1,.15+(t-T(c,5))/1.2)})}),prop('placa',3700,420,.75,fb,{t1:volta,anim:'none'}));
+ [0,1,2].forEach(k=>a.itens.push(fig('operario',4250+k*150,1.1,fb+.3,{t1:T(c,5),espelhar:true,estados:[{t:0,expr:'feliz'}]})));
+ a.itens.push(fig('pai',4150,1.3,fb,{t1:volta,anim:'none',espelhar:true,mov:[{t:T(c,5,1.4),x:4150},{t:T(c,5,1.5),x:4900,dur:2.2}],andar:[T(c,5,1.4),T(c,5,3.7)]}));
+ a.sfx.push(S(T(c,5),'porta',.7));
+ a.itens.push(prop('guardaRoupa',1500,910,1,volta,{anim:'none'}),prop('placa',1500,385,.5,volta,{anim:'none'}),fig('carlos',900,1.4,volta,{anim:'none',estados:[{t:0,pose:'pensando',expr:'determinado'}]}));
  cenas.push(a);}
 
 // 4 — A IDEIA
 {const c=4,a=C(c,{trilha:'leve',trans:'preto'});
- a.itens.push(prop('mesa',960,760,1.1,ini(c),{anim:'none'}),prop('panela',820,744,.6,ini(c),{anim:'none'}));
- a.itens.push(fig('lucia',640,1.4,ini(c),{anim:'none',estados:[{t:ini(c),pose:'mexendo',expr:'feliz'}]}));
- a.itens.push(fig('carlos',1260,1.4,ini(c),{anim:'none',estados:[{t:ini(c),pose:'segurando',expr:'neutro'},{t:T(c,0,2),expr:'surpreso'},{t:T(c,1),pose:'apontando',expr:'feliz'}]}));
- a.itens.push(prop('lampada',1260,330,1,T(c,0,2.1),{t1:T(c,2)}));a.sfx.push(S(T(c,0,2.1),'ding',.6));
- a.itens.push(bal('Mãe... a fábrica tem 300 funcionários.\nE o refeitório tá em reforma.',1150,420,T(c,1),T(c,2)));
- // mapa
- const m=T(c,2);a.cam=[{t:ini(c),s:1,x:960,y:540},{t:m,s:1,x:4000,y:540,dur:.35}];a.sfx.push(S(m,'whoosh',.6));
- a.itens.push(prop('casa',3300,910,.9,m),prop('fabrica',4650,910,.7,m+.3));
- a.itens.push({tipo:'svg',t0:m+.4,anim:'none',svg:t=>{const k=Math.min(1,(t-m-.4)/1.2);return `<line x1="3480" y1="860" x2="${3480+k*820}" y2="860" stroke="#1A1A1A" stroke-width="8" stroke-dasharray="20 18"/>`}});
- a.itens.push(txt('400 m',3900,800,70,m+1.6,{cor:TEAL}),txt('300 FUNCIONÁRIOS',4650,420,48,m+.6,{anim:'pop'}),txt('REFEITÓRIO EM REFORMA',4650,490,40,m+1,{anim:'pop',cor:RED}));
- a.sfx.push(S(m+1.6,'pop',.5));
- // montagem
- const g=T(c,3);a.cam.push({t:g,s:1,x:960,y:540,dur:.01});a.sfx.push(S(g,'whoosh',.5));
- a.itens.push(prop('isopor',600,910,1.1,g,{t0:g}),prop('cartaz',1350,910,1,g+.5,{args:{t:'MARMITA R$ ?'}}));a.sfx.push(S(g,'pop',.5),S(g+.5,'pop',.5));
- a.itens.push(fig('carlos',960,1.4,g,{anim:'pop',estados:[{t:g,pose:'comemorando',expr:'rindo'},{t:T(c,4),pose:'pensando',expr:'pensativo'}]}));
- a.itens[2].t1=g;a.itens[3].t1=m;a.itens[0].t1=g;a.itens[1].t1=g;
+ const m=T(c,2),pl=T(c,3),g=T(c,4);
+ a.itens.push(prop('mesa',960,760,1.1,ini(c),{anim:'none',t1:m}),prop('panela',820,744,.6,ini(c),{anim:'none',t1:m}));
+ a.itens.push(fig('lucia',640,1.4,ini(c),{anim:'none',t1:m,estados:[{t:0,pose:'mexendo',expr:'feliz'}]}));
+ a.itens.push(fig('carlos',1260,1.4,ini(c),{anim:'none',t1:m,estados:[{t:0,pose:'segurando',expr:'neutro'},{t:T(c,0,1.2),expr:'surpreso'},{t:T(c,1),pose:'apontando',expr:'feliz'}]}));
+ a.itens.push(prop('lampada',1260,330,1,T(c,0,1.3),{t1:T(c,1)}));a.sfx.push(S(T(c,0,1.3),'ding',.6));
+ a.itens.push(bal('Mãe... a fábrica tem 300 funcionários.\nE o refeitório tá em reforma.',1150,420,T(c,1),m));
+ a.cam=[{t:ini(c),s:1,x:960,y:540},{t:m,s:1,x:4000,y:540,dur:.35},{t:pl,s:1,x:960,y:540,dur:.01}];a.sfx.push(S(m,'whoosh',.6));
+ a.itens.push(prop('casa',3300,910,.9,m,{t1:pl}),prop('fabrica',4650,910,.7,m+.3,{t1:pl}));
+ a.itens.push({tipo:'svg',t0:m+.4,t1:pl,anim:'none',svg:t=>{const k=Math.min(1,(t-m-.4)/1.2);return `<line x1="3480" y1="860" x2="${3480+k*820}" y2="860" stroke="#1A1A1A" stroke-width="8" stroke-dasharray="20 18"/>`}});
+ a.itens.push(txt('400 m',3900,800,70,m+1.6,{t1:pl,cor:TEAL}),txt('REFEITÓRIO EM REFORMA',4650,430,40,m+.6,{t1:pl,anim:'pop',cor:RED}));
+ // o plano em 3 passos, na ordem
+ a.itens.push(fig('lucia',420,1.2,pl,{t1:g,estados:[{t:0,pose:'mexendo',expr:'feliz'}]}),txt('MÃE COZINHA',420,300,48,pl,{t1:g,anim:'pop'}));
+ a.itens.push(txt('→',760,600,120,pl+.8,{t1:g,anim:'pop'}),fig('carlos',1000,1.2,pl+.8,{t1:g,estados:[{t:0,pose:'acenando',expr:'feliz'}]}),txt('CARLOS VENDE',1000,300,48,pl+.8,{t1:g,anim:'pop'}));
+ a.itens.push(txt('→',1300,600,120,pl+1.6,{t1:g,anim:'pop'}),prop('fabrica',1640,910,.45,pl+1.6,{t1:g}),txt('NA FÁBRICA',1640,300,48,pl+1.6,{t1:g,anim:'pop'}));
+ [pl,pl+.8,pl+1.6].forEach(t=>a.sfx.push(S(t,'pop',.5)));
+ a.itens.push(prop('isopor',600,910,1.1,g),prop('cartaz',1350,910,1,g+.5,{args:{t:'MARMITA R$ ?'}}),fig('carlos',960,1.4,g,{estados:[{t:0,pose:'comemorando',expr:'rindo'}]}));
+ a.sfx.push(S(g,'pop',.5),S(g+.5,'pop',.5));
  cenas.push(a);}
 
 // 5 — O PREÇO NO CHUTE

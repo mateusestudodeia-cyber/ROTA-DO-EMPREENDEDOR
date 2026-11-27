@@ -1,0 +1,4 @@
+episodios/*/build/
+modelos/
+.venv/
+__pycache__/

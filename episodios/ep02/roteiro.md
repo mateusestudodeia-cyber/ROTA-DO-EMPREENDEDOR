@@ -17,12 +17,12 @@
 ---
 
 ## CENA 1 — GANCHO · 0:00–0:25
-- **Visual:** 06:00. O celular vibra na mesa e as notificações sobem como uma cachoeira. O contador "300" bate na tela. Corte: a cozinha da Dona Lúcia com a etiqueta "CAPACIDADE: 60". Split-screen: 300 bonecos de um lado, 60 marmitas do outro. Último plano: comentários raivosos caindo como chuva sobre o Carlos (antecipação do pior momento).
+- **Visual:** apresentação do Carlos (plaquinha CARLOS) ao lado do isopor; o post da Bia; depois 06:00, o celular vibrando e as notificações subindo. O contador "300" bate na tela. Corte: a cozinha da Dona Lúcia com a etiqueta "CAPACIDADE: 60". Split-screen: 300 bonecos de um lado, 60 marmitas do outro. Último plano: comentários raivosos caindo como chuva sobre o Carlos (antecipação do pior momento).
 - **Texto na tela:** 300 PEDIDOS · PAGOS · CAPACIDADE: 60 · comentários "CHEGOU FRIA" · "15H???" · "QUERO MEU DINHEIRO"
 - **Emoção:** euforia → pânico · **Transição:** os comentários cobrem a tela, que fica preta · **Edição:** a vibração do celular cresce em camadas; slam no "300"; a trilha tensa entra no "escolheu a errada".
 
 **Narração**
-> [RITMO: ACELERADO] Trezentos pedidos. Pagos. Pra quarta-feira. [PAUSA CURTA] A cozinha da Dona Lúcia faz sessenta marmitas por dia. Com sorte. [PAUSA LONGA] O Carlos tinha duas opções: dizer "não" pra duzentas e quarenta pessoas… [PAUSA CURTA] ou dizer "sim" pra todas. [PAUSA LONGA] [TONALIDADE: TENSA] Ele escolheu a errada. [PAUSA CURTA] E dessa vez, a conta não veio num guardanapo. [PAUSA CURTA] Veio nos comentários.
+> Esse é o Carlos. Ele vende as marmitas que a mãe dele cozinha, na porta de uma fábrica. [PAUSA CURTA] No episódio passado, ele aprendeu a cobrar o preço certo. [PAUSA LONGA] Mas num domingo à noite, a irmã dele postou um vídeo que viralizou. [PAUSA CURTA] E na segunda de manhã, chegaram trezentos pedidos. Todos pagos. [PAUSA LONGA] O problema: a cozinha da mãe só consegue fazer sessenta marmitas por dia. [PAUSA CURTA] [ÊNFASE] Neste episódio, você vai ver o que acontece quando alguém promete mais do que consegue entregar. [PAUSA CURTA] E a lição que o Carlos tirou disso.
 
 ---
 
@@ -42,7 +42,7 @@
 - **Emoção:** ação frenética, autoconfiança · **Transição:** o elo partido vira um "0" no relógio da cozinha (04:00) · **Edição:** cortes de 1 s com whoosh a cada item; tilintar de corrente (earshot) no close do elo. A frase do Jairo fica com a música baixa, para ser lembrada depois.
 
 **Narração**
-> [RITMO: ACELERADO] E o jeito foi este. [PAUSA CURTA] Panela emprestada da vizinha. Uma panela industrial e um fogareiro no cartão: mil cento e cinquenta reais. Três vizinhas contratadas por cem reais cada. Dois motoboys pra entrega. [PAUSA LONGA] Na terça à noite, ele passou na ferragem do Seu Jairo pra pegar um carrinho de carga emprestado. [PAUSA CURTA] No balcão, um cliente reclamava com uma corrente arrebentada na mão. [PAUSA CURTA] O Seu Jairo nem levantou os olhos. [PAUSA CURTA] — Corrente não arrebenta onde tá mais forte. Arrebenta no elo mais fraco. [PAUSA CURTA] — Tá bom, Seu Jairo. Depois eu volto pra filosofia. [PAUSA LONGA] Ele não voltou. [PAUSA CURTA] Não naquela noite.
+> [RITMO: ACELERADO] Pra dar conta dos trezentos pedidos, o jeito foi este. [PAUSA CURTA] Panela emprestada da vizinha. Uma panela industrial e um fogareiro no cartão: mil cento e cinquenta reais. Três vizinhas contratadas por cem reais cada. Dois motoboys pra entrega. [PAUSA LONGA] Na terça à noite, ele passou na loja de ferragens do Seu Jairo, um senhor que conhece o Carlos desde criança, pra pegar um carrinho de carga emprestado. [PAUSA CURTA] No balcão, um cliente reclamava com uma corrente arrebentada na mão. [PAUSA CURTA] O Seu Jairo nem levantou os olhos. [PAUSA CURTA] — Corrente não arrebenta onde tá mais forte. Arrebenta no elo mais fraco. [PAUSA CURTA] — Tá bom, Seu Jairo. Depois eu volto pra filosofia. [PAUSA LONGA] Ele não voltou. [PAUSA CURTA] Não naquela noite.
 
 ---
 
@@ -52,7 +52,7 @@
 - **Emoção:** tensão crescente · **Transição:** zoom no contador "70", que treme · **Edição:** trilha tensa com pulso de relógio; a câmera fica em plano geral (caos visível); destacar a mesa da Lúcia com uma luz levemente mais quente (pista visual do gargalo, sem explicar ainda).
 
 **Narração**
-> Quarta-feira, quatro da manhã. [PAUSA CURTA] Seis pessoas numa cozinha feita pra uma. [PAUSA CURTA] O fogão dava conta: arroz em leva, feijão no panelão, carne no fogareiro. [PAUSA CURTA] Mas tudo, absolutamente tudo, terminava numa mesa só. [PAUSA CURTA] A mesa onde a Dona Lúcia montava as marmitas. Uma por uma. Do jeito dela. [PAUSA LONGA] [TONALIDADE: TENSA] Às dez da manhã, tinham setenta prontas. [PAUSA CURTA] De trezentas. [PAUSA CURTA] E a entrega estava marcada pra onze e meia.
+> Quarta-feira, o dia da entrega. Quatro da manhã. [PAUSA CURTA] Seis pessoas numa cozinha feita pra uma. [PAUSA CURTA] O fogão dava conta: arroz em leva, feijão no panelão, carne no fogareiro. [PAUSA CURTA] Mas tudo, absolutamente tudo, terminava numa mesa só. [PAUSA CURTA] A mesa onde a Dona Lúcia montava as marmitas. Uma por uma. Do jeito dela. [PAUSA LONGA] [TONALIDADE: TENSA] Às dez da manhã, tinham setenta prontas. [PAUSA CURTA] De trezentas. [PAUSA CURTA] E a entrega estava marcada pra onze e meia.
 
 ---
 
@@ -128,7 +128,7 @@
 - **Emoção:** reconstrução, orgulho do trabalho em equipe · **Transição:** a frase "Agora é assim" corta para o relógio das 18h · **Edição:** ritmo de "montagem de oficina" com um corte por estação e um tic-tac-ding a cada marmita fechada; a câmera passa pela linha como travelling. Destacar a corrente do papel de pão sendo atualizada, com o elo vermelho mudando de lugar.
 
 **Narração**
-> [RITMO: ACELERADO] O Carlos voltou pra casa e desmontou a cozinha. [PAUSA CURTA] Em vez de todo mundo fazendo tudo, uma linha. [PAUSA CURTA] A Dona Rosa, do lado, no arroz e feijão. A Dona Lúcia na carne e no tempero, porque o sabor é dela e continua sendo. A Bia fechando, etiquetando e conferindo. [PAUSA CURTA] A montagem saiu de quinze pra quarenta por hora. [PAUSA LONGA] E aí aconteceu uma coisa curiosa. [PAUSA CURTA] O elo mais fraco mudou de lugar. [PAUSA CURTA] Agora era a entrega: uma moto e um portão de fábrica não levam mais que oitenta marmitas no horário do almoço. [PAUSA LONGA] Então a regra virou essa: prato único do dia. Oitenta vagas, abertas às seis da tarde. Acabou, acabou. [PAUSA CURTA] O resto vai pra lista de espera. [PAUSA LONGA] [TONALIDADE: ÍNTIMA] E antes de reabrir, o Carlos gravou um vídeo. Sem piada. [PAUSA CURTA] "A gente errou. Todo mundo já foi reembolsado. Agora é assim."
+> [RITMO: ACELERADO] Então, o Carlos voltou pra casa e reorganizou a cozinha inteira. [PAUSA CURTA] Em vez de todo mundo fazendo tudo, uma linha. [PAUSA CURTA] A Dona Rosa, do lado, no arroz e feijão. A Dona Lúcia na carne e no tempero, porque o sabor é dela e continua sendo. A Bia fechando, etiquetando e conferindo. [PAUSA CURTA] A montagem saiu de quinze pra quarenta por hora. [PAUSA LONGA] E aí aconteceu uma coisa curiosa. [PAUSA CURTA] O elo mais fraco mudou de lugar. [PAUSA CURTA] Agora era a entrega: uma moto e um portão de fábrica não levam mais que oitenta marmitas no horário do almoço. [PAUSA LONGA] Então a regra virou essa: prato único do dia. Oitenta vagas, abertas às seis da tarde. Acabou, acabou. [PAUSA CURTA] O resto vai pra lista de espera. [PAUSA LONGA] [TONALIDADE: ÍNTIMA] E antes de reabrir, o Carlos gravou um vídeo. Sem piada. [PAUSA CURTA] "A gente errou. Todo mundo já foi reembolsado. Agora é assim."
 
 ---
 
@@ -140,7 +140,7 @@
 > **Conferência dos números:** 100 × 25 = 2.500, cerca de 4 vezes o prejuízo de quarta (600).
 
 **Narração**
-> Quinta-feira, seis da tarde. As vagas abriram. [PAUSA CURTA] [RITMO: ACELERADO] Oitenta marmitas esgotaram em doze minutos. Cento e quarenta pessoas na lista de espera. [PAUSA LONGA] E aí o celular tocou. [PAUSA CURTA] Era o Henrique, gerente de uma transportadora do bairro. [PAUSA CURTA] — Vi o seu vídeo. Tenho um evento amanhã. Preciso de cem marmitas. Pago vinte e cinco cada. [PAUSA LONGA] [TONALIDADE: TENSA] Dois mil e quinhentos reais. [PAUSA CURTA] Quatro vezes o prejuízo de quarta. [PAUSA LONGA] O Carlos olhou pro papel de pão na parede. Oitenta. A corrente aguentava oitenta. [PAUSA LONGA] [ÊNFASE] — Amanhã eu não consigo, seu Henrique. Se eu disser que sim, eu te entrego comida fria. [PAUSA CURTA] Terça eu consigo. Com metade adiantada. E eu entrego quente. [PAUSA CURTA] — Então eu procuro outro. [PAUSA CURTA] — Pode procurar. [PAUSA LONGA] A ligação caiu. [PAUSA CURTA] A Bia estava de boca aberta. [PAUSA CURTA] — Você acabou de recusar dois mil e quinhentos reais. [PAUSA CURTA] — Não, Bia. [PAUSA CURTA] Eu recusei prometer o que eu não consigo cumprir.
+> Com o sistema novo pronto, na quinta-feira, às seis da tarde, as vagas abriram. [PAUSA CURTA] [RITMO: ACELERADO] Oitenta marmitas esgotaram em doze minutos. Cento e quarenta pessoas na lista de espera. [PAUSA LONGA] E aí o celular tocou. [PAUSA CURTA] Era o Henrique, gerente de uma transportadora do bairro. [PAUSA CURTA] — Vi o seu vídeo. Tenho um evento amanhã. Preciso de cem marmitas. Pago vinte e cinco cada. [PAUSA LONGA] [TONALIDADE: TENSA] Dois mil e quinhentos reais. [PAUSA CURTA] Quatro vezes o prejuízo de quarta. [PAUSA LONGA] O Carlos olhou pro papel de pão na parede. Oitenta. A corrente aguentava oitenta. [PAUSA LONGA] [ÊNFASE] — Amanhã eu não consigo, seu Henrique. Se eu disser que sim, eu te entrego comida fria. [PAUSA CURTA] Terça eu consigo. Com metade adiantada. E eu entrego quente. [PAUSA CURTA] — Então eu procuro outro. [PAUSA CURTA] — Pode procurar. [PAUSA LONGA] A ligação caiu. [PAUSA CURTA] A Bia estava de boca aberta. [PAUSA CURTA] — Você acabou de recusar dois mil e quinhentos reais. [PAUSA CURTA] — Não, Bia. [PAUSA CURTA] Eu recusei prometer o que eu não consigo cumprir.
 
 ---
 

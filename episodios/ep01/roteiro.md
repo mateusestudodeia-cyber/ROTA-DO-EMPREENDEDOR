@@ -17,43 +17,43 @@
 
 ---
 
-## CENA 1 — GANCHO · 0:00–0:22
-- **Visual:** o gancho já produzido (`demo/gancho_ep01.mp4`): marmitas pipocando, contador até R$ 2.400, "RICO!", freeze em P&B, contas caindo, "R$ 0" em vermelho. Termina num close lento no rosto do Carlos.
-- **Texto na tela:** 200 MARMITAS · R$ 2.400 · R$ 0
-- **Emoção:** euforia → choque · **Transição:** corte seco para preto (0,3 s) · **Edição:** a trilha leve para no arranhão de disco; na última frase, só uma nota grave sustentada.
+## CENA 1 — QUEM É O CARLOS · 0:00–0:25 · *Gancho claro*
+- **Visual:** fundo creme limpo. O Carlos entra andando e acena; plaquinha com o nome "CARLOS, 26 ANOS". Cada frase ganha um ícone simples ao lado dele: crachá riscado (demitido), isopor de marmitas com o contador 200, cofre com "R$ 0", e um grande "?".
+- **Texto na tela:** CARLOS, 26 ANOS · DEMITIDO · 200 MARMITAS · R$ 0 · PRA ONDE FOI O DINHEIRO?
+- **Emoção:** curiosidade · **Transição:** corte para a segunda-feira da demissão · **Edição:** um elemento por frase, nada simultâneo; trilha leve.
 
 **Narração**
-> [RITMO: ACELERADO] Duzentas marmitas. Em um mês. [PAUSA CURTA] Dois mil e quatrocentos reais entrando no caixa. [PAUSA CURTA] O Carlos achou que tinha ficado rico. [PAUSA LONGA] Até abrir as contas do mês. [PAUSA CURTA] Sobrou… zero. [PAUSA LONGA] [TONALIDADE: ÍNTIMA] E a pior parte nem era o dinheiro. [PAUSA CURTA] Era quem estava pagando essa conta… sem ele perceber.
+> Esse é o Carlos. Vinte e seis anos. [PAUSA CURTA] Numa segunda-feira, ele foi demitido… e decidiu abrir o próprio negócio. [PAUSA CURTA] Vender as marmitas que a mãe dele cozinha. [PAUSA LONGA] No primeiro mês, ele vendeu duzentas marmitas. [PAUSA CURTA] E mesmo assim, no fim do mês, não sobrou dinheiro nenhum. [PAUSA LONGA] [ÊNFASE] Neste episódio, você vai descobrir pra onde foi esse dinheiro. [PAUSA CURTA] E o erro que quase quebrou a família dele.
 
 ---
 
-## CENA 2 — A CAIXA DE PAPELÃO · 0:22–1:05 · *Situação inicial*
-- **Visual:** cartão "30 DIAS ANTES" estilo carimbo. Prédio de vidro em traço palito. O Carlos sai com uma caixa de papelão (planta, caneca, headset). A catraca apita vermelho: "ACESSO NEGADO".
-- **Texto na tela:** 30 DIAS ANTES · ACESSO NEGADO · R$ 3.100
-- **Emoção:** humilhação disfarçada de piada · **Transição:** whoosh lateral para a rua · **Edição:** punch-in no headset caindo da caixa, com SFX de "toc" seco.
+## CENA 2 — A DEMISSÃO · 0:25–1:05 · *Situação inicial*
+- **Visual:** prédio de vidro. O Carlos sai com uma caixa de papelão; a catraca apita vermelho. Depois, na calçada, o contador do acerto (R$ 3.100) e o Carlos com cara de determinado.
+- **Texto na tela:** SEGUNDA-FEIRA · ACESSO NEGADO · CORTE DE CUSTOS · R$ 3.100
+- **Emoção:** choque → decisão · **Transição:** o Carlos caminha para casa · **Edição:** punch-in na catraca; carimbo "CORTE DE CUSTOS".
 
 **Narração**
-> [TONALIDADE: ÍNTIMA] Trinta dias antes, o Carlos saiu de um prédio de vidro com uma caixa de papelão nos braços. [PAUSA CURTA] Quatro anos de telemarketing. Melhor vendedor do andar, três meses seguidos. [PAUSA CURTA] E mesmo assim, numa segunda-feira de manhã, o crachá parou de passar na catraca. [PAUSA CURTA] Corte de custos. [PAUSA LONGA] No bolso, o acerto: três mil e cem reais. [PAUSA CURTA] Na cabeça, uma frase só. [ÊNFASE] Eu não volto pra fila de emprego.
+> Tudo começou nessa segunda-feira. [PAUSA CURTA] O Carlos trabalhava havia quatro anos num call center, vendendo por telefone. Era um dos melhores vendedores do andar. [PAUSA CURTA] Mas naquela manhã, o crachá dele não passou na catraca. [PAUSA CURTA] Corte de custos. [PAUSA LONGA] Ele saiu com uma caixa de papelão e três mil e cem reais de acerto no bolso. [PAUSA CURTA] E com uma decisão: [ÊNFASE] não ia procurar outro emprego. Ia abrir o próprio negócio.
 
 ---
 
-## CENA 3 — A CASA E A PLACA · 1:05–1:55 · *Situação inicial / medo*
-- **Visual:** cozinha simples. Dona Lúcia (coque, avental vermelho) na máquina de costura, com uma panela no fogo ao fundo. Bia (rabo de cavalo, celular) no sofá. Câmera sobe até o alto do guarda-roupa: um saco plástico com a placa "OFICINA REIS — O PREÇO MAIS BAIXO DO BAIRRO". Flashback em sépia: o pai de costas, a oficina cheia de carros e uma porta de aço descendo.
-- **Texto na tela:** balão da Bia · a placa legível em close
-- **Emoção:** ternura → medo antigo · **Transição:** a porta de aço do flashback desce e vira um corte para a mesa do jantar · **Edição:** o flashback dessaturado com grão; SFX de porta de aço descendo.
+## CENA 3 — A FAMÍLIA E O MEDO · 1:05–1:55 · *Situação inicial / medo*
+- **Visual:** a casa. A Dona Lúcia (coque, avental) na máquina de costura com uma panela no fogo; a Bia (rabo de cavalo, celular) no sofá. Plaquinha com o nome de cada uma quando é apresentada. Depois, cartão "12 ANOS ANTES" e um flashback curto em sépia: a oficina do pai com a placa "O PREÇO MAIS BAIXO DO BAIRRO", a porta de aço descendo e o pai indo embora.
+- **Texto na tela:** DONA LÚCIA · BIA · 12 ANOS ANTES · OFICINA REIS
+- **Emoção:** ternura → medo antigo · **Transição:** volta para o Carlos olhando a placa guardada no guarda-roupa · **Edição:** flashback anunciado e curto.
 
 **Narração**
-> Em casa, a Dona Lúcia já estava na máquina de costura. Cinquenta e quatro anos, mão de costureira… e o melhor feijão de Contagem. Isso não era opinião. Era consenso do bairro. [PAUSA CURTA] A Bia, a irmã de dezessete anos, nem tirou o olho do celular. [PAUSA CURTA] — Demitido? Bem-vindo ao clube dos sem-crachá. [PAUSA CURTA] O Carlos riu. Ele sempre ri quando está com medo. [PAUSA LONGA] [TONALIDADE: ÍNTIMA] Porque em cima do guarda-roupa, embrulhada num saco de lixo, tinha uma placa velha. [PAUSA CURTA] "Oficina Reis. O preço mais baixo do bairro." [PAUSA CURTA] Era do pai dele. A oficina vivia cheia. [PAUSA CURTA] E fechou cheia. Com dívida, sem aviso. E o pai foi embora junto. [PAUSA LONGA] O Carlos tinha doze anos. E jurou que nunca ia quebrar daquele jeito.
+> O Carlos mora com a mãe, a Dona Lúcia, que é costureira e cozinha muito bem. E com a irmã de dezessete anos, a Bia. [PAUSA CURTA] Quando contou que tinha sido demitido, a Bia nem tirou o olho do celular. [PAUSA CURTA] — Bem-vindo ao clube dos desempregados. [PAUSA LONGA] [TONALIDADE: ÍNTIMA] Mas por dentro, o Carlos tinha um medo. Um medo que vinha do pai. [PAUSA CURTA] Doze anos antes, o pai dele tinha uma oficina. Cobrava o preço mais baixo do bairro e vivia lotada. [PAUSA CURTA] Mesmo assim, a oficina quebrou cheia de dívidas. E o pai foi embora. [PAUSA LONGA] Desde então, o Carlos jurou que nunca ia quebrar desse jeito.
 
 ---
 
 ## CENA 4 — A IDEIA · 1:55–2:35 · *Desejo*
-- **Visual:** jantar. Concha de feijão, vapor. O Carlos para com o garfo no ar e uma lâmpada se acende ao lado da cabeça. Corte para um mapa palito: a casa, uma linha pontilhada de 400 m e a fábrica de autopeças, com o refeitório interditado com fita.
+- **Visual:** jantar. Concha de feijão, vapor. Lâmpada acende ao lado do Carlos. Mapa simples: a casa, uma linha pontilhada de 400 m e a fábrica com "REFEITÓRIO EM REFORMA". Depois isopor e cartaz feitos à mão.
 - **Texto na tela:** 300 FUNCIONÁRIOS · REFEITÓRIO EM REFORMA · 400 m
-- **Emoção:** esperança, faísca · **Transição:** a linha pontilhada "puxa" a câmera até a fábrica · **Edição:** trilha leve volta aqui; montagem rápida de isopor, cartaz à mão e marcador.
+- **Emoção:** esperança · **Transição:** o cartaz sem preço → próxima cena (o preço) · **Edição:** trilha leve volta.
 
 **Narração**
-> Foi no jantar que a ideia apareceu. A mãe serviu o feijão… e o Carlos parou com o garfo no ar. [PAUSA CURTA] — Mãe. A fábrica de autopeças da avenida tem trezentos funcionários. E o refeitório tá em reforma. [PAUSA CURTA] Quatrocentos metros da nossa porta. [PAUSA LONGA] [RITMO: ACELERADO] No dia seguinte, ele já tinha um isopor, um cartaz escrito à mão… e um plano. [PAUSA CURTA] Ou o que ele chamava de plano.
+> Então, naquela noite, a ideia apareceu no jantar. [PAUSA CURTA] — Mãe… a fábrica de autopeças da avenida tem trezentos funcionários. E o refeitório deles está em reforma. [PAUSA CURTA] Fica a quatrocentos metros da nossa casa. [PAUSA LONGA] [RITMO: ACELERADO] O plano era simples: a mãe cozinha, o Carlos vende as marmitas na porta da fábrica. [PAUSA CURTA] No dia seguinte, ele já tinha um isopor e um cartaz escrito à mão.
 
 ---
 
@@ -63,7 +63,7 @@
 - **Emoção:** confiança ingênua · **Transição:** o "✓" verde treme e fica levemente torto, um presságio · **Edição:** SFX de caneta riscando e ding no check. Na última frase, a música desafina meio tom.
 
 **Narração**
-> Faltava o preço. E aqui o Carlos fez o que quase todo mundo faz. [PAUSA CURTA] Olhou pro lado. [PAUSA CURTA] A lanchonete do Bigode, na esquina, cobrava quinze reais no prato feito. [PAUSA CURTA] — Se eu cobrar doze, eu ganho no preço. [PAUSA LONGA] Depois ele abriu o caderno. Arroz, feijão, carne, salada. Uns seis reais por marmita. [PAUSA CURTA] [ÊNFASE] Doze menos seis: seis de lucro. Vezes duzentas no mês… mil e duzentos reais limpos. [PAUSA LONGA] Parecia matemática. [PAUSA CURTA] Era chute com cara de matemática.
+> Só faltava decidir o preço. E aqui o Carlos fez o que quase todo mundo faz. [PAUSA CURTA] Olhou pro lado. [PAUSA CURTA] A lanchonete do Bigode, na esquina, cobrava quinze reais no prato feito. [PAUSA CURTA] — Se eu cobrar doze, eu ganho no preço. [PAUSA LONGA] Depois ele abriu o caderno. Arroz, feijão, carne, salada. Uns seis reais por marmita. [PAUSA CURTA] [ÊNFASE] Doze menos seis: seis de lucro. Vezes duzentas no mês… mil e duzentos reais limpos. [PAUSA LONGA] Parecia matemática. [PAUSA CURTA] Era chute com cara de matemática.
 
 ---
 
@@ -83,7 +83,7 @@
 - **Emoção:** inquietação crescente · **Transição:** a luz da cozinha acende e corta para o rosto do Carlos iluminado pelo celular · **Edição:** a trilha leve perde a bateria e fica só o pad; SFX de moeda caindo em cada furo, com o tom descendo a cada vez.
 
 **Narração**
-> Mas tinha uma coisa estranha. [PAUSA CURTA] [TONALIDADE: TENSA] O dinheiro entrava… e não ficava. [PAUSA CURTA] O botijão de gás, que durava o mês inteiro, acabou em doze dias. Depois acabou de novo. [PAUSA CURTA] A conta de luz veio mais alta. A marmita precisava de embalagem, talher, sacola… tudo pago à parte. O mototáxi até a fábrica, todo santo dia. [PAUSA CURTA] E o "paga na sexta" virou "semana que vem". [PAUSA CURTA] Depois virou silêncio. [PAUSA LONGA] E a Dona Lúcia começou a acordar às cinco. [PAUSA CURTA] Depois, às quatro e meia.
+> Lembra: a meta era provar que o negócio dava dinheiro. Mas tinha uma coisa estranha. [PAUSA CURTA] [TONALIDADE: TENSA] O dinheiro entrava… e não ficava. [PAUSA CURTA] O botijão de gás, que durava o mês inteiro, acabou em doze dias. Depois acabou de novo. [PAUSA CURTA] A conta de luz veio mais alta. A marmita precisava de embalagem, talher, sacola… tudo pago à parte. O mototáxi até a fábrica, todo santo dia. [PAUSA CURTA] E o "paga na sexta" virou "semana que vem". [PAUSA CURTA] Depois virou silêncio. [PAUSA LONGA] E a Dona Lúcia começou a acordar às cinco. [PAUSA CURTA] Depois, às quatro e meia.
 
 ---
 
@@ -93,7 +93,7 @@
 - **Emoção:** teimosia → desconforto · **Transição:** relógio 05:10, zoom lento até a panela de pressão · **Edição:** o tique de relógio acelera; a música some até o silêncio total na reticência final.
 
 **Narração**
-> O Carlos olhou pro caixa minguando e chegou a uma conclusão. [PAUSA CURTA] [ÊNFASE] O problema é que eu tô vendendo pouco. [PAUSA LONGA] Na última semana do mês, ele pediu pra mãe dobrar a produção. Trinta marmitas por dia. [PAUSA CURTA] Ela não discutiu. Ela nunca discutia. [PAUSA LONGA] Na quarta, sobraram doze. Na quinta, nove. [PAUSA CURTA] Comida boa indo pro vizinho, pro cachorro… pro lixo. [PAUSA LONGA] [RITMO: LENTO] E na sexta, às cinco e dez da manhã…
+> Sem entender pra onde ia o dinheiro, o Carlos olhou pro caixa e chegou a uma conclusão. [PAUSA CURTA] [ÊNFASE] O problema é que eu tô vendendo pouco. [PAUSA LONGA] Na última semana do mês, ele pediu pra mãe dobrar a produção. Trinta marmitas por dia. [PAUSA CURTA] Ela não discutiu. Ela nunca discutia. [PAUSA LONGA] Na quarta, sobraram doze. Na quinta, nove. [PAUSA CURTA] Comida boa indo pro vizinho, pro cachorro… pro lixo. [PAUSA LONGA] [RITMO: LENTO] E na sexta, às cinco e dez da manhã…
 
 ---
 
@@ -125,7 +125,7 @@
 > **Conferência dos números:** 230 produzidas (200 vendidas + 30 sobras) × R$ 7,40 = 1.702 · 230 × R$ 1,30 = 299 · 1.702 + 299 + 250 + 60 + 176 = 2.487 · 18 fiados × R$ 12 = 216 · 2.400 − 216 = 2.184 · 2.184 − 2.487 = −303 · 2.487 ÷ 200 = 12,435 ≈ R$ 12,44 · 5 h × 22 dias = 110 h.
 
 **Narração**
-> Quem apareceu foi o Tiago. Melhor amigo, estudante de contabilidade… o cara mais chato do mundo com número. [PAUSA CURTA] Ele não disse "eu avisei". [PAUSA CURTA] Ele pegou um guardanapo. [PAUSA CURTA] — Me fala tudo que saiu de dinheiro. Tudo. [PAUSA LONGA] [RITMO: LENTO] Ingredientes: mil setecentos e dois. Embalagem, talher e sacola: duzentos e noventa e nove. Gás: duzentos e cinquenta. Luz e água a mais: sessenta. Mototáxi: cento e setenta e seis. [PAUSA CURTA] Total: dois mil, quatrocentos e oitenta e sete reais. [PAUSA LONGA] — E quanto entrou de verdade? [PAUSA CURTA] Dos dois mil e quatrocentos vendidos, dezoito marmitas nunca foram pagas. Entrou: dois mil, cento e oitenta e quatro. [PAUSA LONGA] [ÊNFASE] Não tinha sobrado zero. Tinham faltado trezentos e três reais. [PAUSA LONGA] O Tiago dividiu o gasto pelas duzentas marmitas vendidas. [PAUSA CURTA] — Carlos… cada marmita te custava doze e quarenta e quatro. Você vendia por doze. [PAUSA LONGA] [TONALIDADE: ÍNTIMA] Você pagava quarenta e quatro centavos pra cada cliente almoçar. [PAUSA LONGA] — E isso sem contar a sua mãe. Cinco horas por dia, vinte e dois dias. Cento e dez horas de trabalho… de graça. [PAUSA LONGA] O custo que nunca aparecia no caderno era a pessoa que ele mais queria proteger.
+> No dia seguinte, quem apareceu foi o Tiago, o melhor amigo do Carlos. Estudante de contabilidade… o cara mais chato do mundo com número. [PAUSA CURTA] Ele não disse "eu avisei". [PAUSA CURTA] Ele pegou um guardanapo. [PAUSA CURTA] — Me fala tudo que saiu de dinheiro. Tudo. [PAUSA LONGA] [RITMO: LENTO] Ingredientes: mil setecentos e dois. Embalagem, talher e sacola: duzentos e noventa e nove. Gás: duzentos e cinquenta. Luz e água a mais: sessenta. Mototáxi: cento e setenta e seis. [PAUSA CURTA] Total: dois mil, quatrocentos e oitenta e sete reais. [PAUSA LONGA] — E quanto entrou de verdade? [PAUSA CURTA] Dos dois mil e quatrocentos vendidos, dezoito marmitas nunca foram pagas. Entrou: dois mil, cento e oitenta e quatro. [PAUSA LONGA] [ÊNFASE] Não tinha sobrado zero. Tinham faltado trezentos e três reais. [PAUSA LONGA] O Tiago dividiu o gasto pelas duzentas marmitas vendidas. [PAUSA CURTA] — Carlos… cada marmita te custava doze e quarenta e quatro. Você vendia por doze. [PAUSA LONGA] [TONALIDADE: ÍNTIMA] Você pagava quarenta e quatro centavos pra cada cliente almoçar. [PAUSA LONGA] — E isso sem contar a sua mãe. Cinco horas por dia, vinte e dois dias. Cento e dez horas de trabalho… de graça. [PAUSA LONGA] O custo que nunca aparecia no caderno era a pessoa que ele mais queria proteger.
 
 ---
 
@@ -152,7 +152,7 @@
 > **Conferência dos números:** 250 + 60 + 176 + 800 = 1.286 · 19 − 7,90 = 11,10 · 1.286 ÷ 11,10 = 115,9 → 116.
 
 **Narração**
-> Naquela madrugada, os três montaram a conta direito. [PAUSA CURTA] [RITMO: ACELERADO] Primeiro, o custo de cada marmita: ingrediente e embalagem, comprando no atacado… sete e noventa. [PAUSA CURTA] Segundo, o que se gasta todo mês, vendendo ou não: gás, luz, transporte. [PAUSA CURTA] E uma linha que nunca tinha existido: o salário da Dona Lúcia. Oitocentos reais. [PAUSA CURTA] Terceiro: chega de sobra. Pedido pelo WhatsApp até as dez. Faz só o que foi pedido. [PAUSA CURTA] Quarto: chega de fiado. Pix antes de entregar. [PAUSA LONGA] E aí, o número que deu frio na barriga. [PAUSA CURTA] [ÊNFASE] Dezenove reais. [PAUSA CURTA] Sete a mais que antes. Quatro a mais que o Bigode. [PAUSA LONGA] [RITMO: LENTO] Com dezenove, cada marmita deixa onze e dez pra pagar as contas do mês. A partir da centésima décima sexta, começa o lucro de verdade. [PAUSA CURTA] Antes disso, é só a conta empatando.
+> Então, naquela madrugada, o Carlos, o Tiago e a mãe montaram a conta direito. [PAUSA CURTA] [RITMO: ACELERADO] Primeiro, o custo de cada marmita: ingrediente e embalagem, comprando no atacado… sete e noventa. [PAUSA CURTA] Segundo, o que se gasta todo mês, vendendo ou não: gás, luz, transporte. [PAUSA CURTA] E uma linha que nunca tinha existido: o salário da Dona Lúcia. Oitocentos reais. [PAUSA CURTA] Terceiro: chega de sobra. Pedido pelo WhatsApp até as dez. Faz só o que foi pedido. [PAUSA CURTA] Quarto: chega de fiado. Pix antes de entregar. [PAUSA LONGA] E aí, o número que deu frio na barriga. [PAUSA CURTA] [ÊNFASE] Dezenove reais. [PAUSA CURTA] Sete a mais que antes. Quatro a mais que o Bigode. [PAUSA LONGA] [RITMO: LENTO] Com dezenove, cada marmita deixa onze e dez pra pagar as contas do mês. A partir da centésima décima sexta, começa o lucro de verdade. [PAUSA CURTA] Antes disso, é só a conta empatando.
 
 ---
 
@@ -162,7 +162,7 @@
 - **Emoção:** tensão máxima → perda aceita · **Transição:** os bonecos saem de quadro um a um e a fila fica com buracos · **Edição:** a música para totalmente quando a mão vai ao marcador, e fica só a respiração e o tique do relógio. Inserts com flash curto e whoosh grave. Depois da fala do Carlos, 1,5 s de silêncio absoluto.
 
 **Narração**
-> Segunda-feira, onze e meia. Portão da fábrica. Cartaz novo: dezenove reais. [PAUSA CURTA] O primeiro da fila foi o Marcão. Cliente desde o primeiro dia. [PAUSA CURTA] Ele leu o cartaz. Leu de novo. [PAUSA CURTA] — Dezenove? Tá doido, Carlos? O Bigode cobra quinze. [PAUSA LONGA] [TONALIDADE: TENSA] O Carlos sentiu a mão ir sozinha até o marcador. Era só riscar. Voltar pros doze. Todo mundo feliz de novo. [PAUSA CURTA] Ele pensou no guardanapo. Na mão da mãe. Na placa do pai. [PAUSA LONGA] [ÊNFASE] — Marcão… por doze, eu pagava pra você almoçar. [PAUSA CURTA] E quem pagava essa conta era a minha mãe. [PAUSA LONGA] O Marcão ficou quieto. [PAUSA CURTA] E foi embora. [PAUSA CURTA] Mais três foram atrás dele.
+> Agora vinha a parte difícil: contar o preço novo pros clientes. Segunda-feira, onze e meia, no portão da fábrica. Cartaz novo: dezenove reais. [PAUSA CURTA] O primeiro da fila foi o Marcão. Cliente desde o primeiro dia. [PAUSA CURTA] Ele leu o cartaz. Leu de novo. [PAUSA CURTA] — Dezenove? Tá doido, Carlos? O Bigode cobra quinze. [PAUSA LONGA] [TONALIDADE: TENSA] O Carlos sentiu a mão ir sozinha até o marcador. Era só riscar. Voltar pros doze. Todo mundo feliz de novo. [PAUSA CURTA] Ele pensou no guardanapo. Na mão da mãe. Na placa do pai. [PAUSA LONGA] [ÊNFASE] — Marcão… por doze, eu pagava pra você almoçar. [PAUSA CURTA] E quem pagava essa conta era a minha mãe. [PAUSA LONGA] O Marcão ficou quieto. [PAUSA CURTA] E foi embora. [PAUSA CURTA] Mais três foram atrás dele.
 
 ---
 

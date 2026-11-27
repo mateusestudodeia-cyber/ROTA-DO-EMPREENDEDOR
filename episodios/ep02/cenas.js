@@ -11,22 +11,23 @@ const RED='#E4572E',GREEN='#3FA34D',TEAL='#1E88A8',GOLD='#F6D776',NOITE='#22293D
 const dur=(c,i)=>F(c,i)-T(c,i);
 const cenas=[];
 
-// 1 — GANCHO
-{const c=1,a=C(c,{trilha:'tensa',fundo:NOITE,chao:null});
- a.itens.push({tipo:'prop',nome:'relogio',x:960,y:170,s:.8,t0:ini(c),t1:T(c,1),anim:'pop',args:{txt:'06:00'}});
- a.itens.push({tipo:'notifs',x:960,y:980,s:1,t0:ini(c),t1:T(c,1),dur:1.6,n:14,txt:'Pix recebido · R$ 19',anim:'none'});
- a.itens.push({tipo:'contador',de:0,ate:300,suf:' PEDIDOS',x:960,y:470,sz:160,cor:GOLD,contorno:NOITE,t0:T(c,0),t1:T(c,1),dur:.8,anim:'slam'},txt('PAGOS.',960,620,90,T(c,0,1.1),{t1:T(c,1),cor:GREEN,contorno:NOITE}));
- for(let k=0;k<5;k++)a.sfx.push(S(ini(c)+k*.3,'vibra',.45));a.sfx.push(S(T(c,0,.8),'impact',.8),S(T(c,0,1.1),'ding',.5));
- const k1=T(c,1);a.fundos=[{t:k1,cor:'#FAF7F0'},{t:T(c,5),cor:NOITE}];
- a.itens.push(prop('fogao',700,910,1,k1,{t1:T(c,2),anim:'none'}),prop('panela',700,680,.8,k1,{t1:T(c,2),anim:'none'}),fig('lucia',1100,1.35,k1,{t1:T(c,2),anim:'none',estados:[{t:0,pose:'mexendo',expr:'cansado'}]}));
- a.itens.push(txt('CAPACIDADE: 60',960,200,110,k1+.5,{t1:T(c,2),cor:RED}));a.sfx.push(S(k1+.5,'slam',.7));
- const sp=T(c,2);a.itens.push({tipo:'svg',t0:sp,t1:T(c,4),anim:'fade',svg:t=>{let s=`<line x1="960" y1="80" x2="960" y2="900" stroke="#1A1A1A" stroke-width="6"/><text x="480" y="140" font-family="DejaVu Sans" font-size="70" font-weight="900" text-anchor="middle">300 PEDIDOS</text><text x="1440" y="140" font-family="DejaVu Sans" font-size="70" font-weight="900" text-anchor="middle" fill="${RED}">60 MARMITAS</text>`;
-   for(let i=0;i<300;i++){const x=110+(i%20)*37,y=220+Math.floor(i/20)*42;s+=`<circle cx="${x}" cy="${y}" r="14" fill="#fff" stroke="#1A1A1A" stroke-width="4"/>`}
-   for(let i=0;i<60;i++){const x=1110+(i%10)*66,y=230+Math.floor(i/10)*90;s+=`<rect x="${x-24}" y="${y-16}" width="48" height="32" rx="5" fill="#fff" stroke="#1A1A1A" stroke-width="4"/>`}return s}});
- a.itens.push(fig('carlos',960,1.5,T(c,3),{t1:T(c,5),estados:[{t:T(c,3),pose:'comemorando',expr:'rindo'},{t:T(c,4),pose:'desespero',expr:'desesperado'}]}),bal('SIM!',960,330,T(c,3),T(c,4)));
- a.itens.push(txt('A ERRADA.',960,190,120,T(c,4),{t1:T(c,5),cor:RED}));a.sfx.push(S(T(c,4),'impact',.9));a.shake=[{t:T(c,4),amp:22}];
- const cm=T(c,5);a.itens.push(fig('carlos',960,1.5,cm,{anim:'none',estados:[{t:cm,pose:'desespero',expr:'desesperado'}]}));
- ['CHEGOU FRIA','15H???','QUERO MEU DINHEIRO','ARROZ EMPAPADO','golpe?'].forEach((s,k)=>{a.itens.push({tipo:'painel',estilo:'papel',x:330+k*315,y:110+(k%2)*170,s:.8,w:440,h:110,t0:cm+.3+k*.3,anim:'cair',rot:(k%2?6:-6),linhas:[{t:s,c:RED,b:1}]});a.sfx.push(S(cm+.3+k*.3,'erro',.35))});
+// 1 — QUEM É O CARLOS E O PROBLEMA
+{const c=1,a=C(c,{trilha:[{t:ini(c),f:'leve'},{t:T(c,4),f:'tensa'}],chao:910});
+ const v=T(c,2),p=T(c,3),k=T(c,4),l=T(c,5);
+ a.fundos=[{t:ini(c),cor:'#FAF7F0'},{t:v,cor:NOITE},{t:k,cor:'#FAF7F0'}];
+ a.itens.push(prop('fabrica',1550,910,.7,ini(c),{anim:'none',t1:v}),prop('isopor',820,910,.9,ini(c),{anim:'none',t1:v}));
+ a.itens.push(fig('carlos',560,1.4,ini(c),{anim:'none',t1:v,estados:[{t:0,pose:'acenando',expr:'feliz'},{t:T(c,1),pose:'apontando',expr:'determinado'}]}),txt('CARLOS',560,250,64,T(c,0,.5),{t1:T(c,1),anim:'pop',cor:TEAL}));
+ a.itens.push(prop('cartaz',1100,910,.85,T(c,1),{t1:v,args:{t:'MARMITA R$ 19'}}),txt('EPISÓDIO PASSADO: O PREÇO CERTO',960,170,56,T(c,1),{t1:v,anim:'pop'}));a.sfx.push(S(T(c,1),'pop',.5));
+ a.itens.push(fig('bia',600,1.4,v,{t1:p,anim:'fade',y:1000,estados:[{t:0,pose:'celular',expr:'feliz'}]}),{tipo:'painel',estilo:'celular',titulo:'@bia.reis',x:1300,y:150,s:.8,w:560,h:520,t0:v+.4,t1:p,anim:'subir',linhas:['[vídeo da mãe','mexendo o feijão]','',{t:'VIRALIZOU',c:RED,b:1}],linhasT:[v+.4,v+.4,v+.4,F(c,2,-.8)]});
+ a.sfx.push(S(F(c,2,-.8),'ding',.6));
+ a.itens.push({tipo:'prop',nome:'relogio',x:960,y:160,s:.7,t0:p,t1:k,anim:'pop',args:{txt:'SEG 06:00'}},{tipo:'notifs',x:960,y:1000,s:1,t0:p,t1:k,dur:2,n:10,txt:'Pix recebido · R$ 19',anim:'none'});
+ a.itens.push({tipo:'contador',de:0,ate:300,suf:' PEDIDOS',x:960,y:470,sz:140,cor:GOLD,contorno:NOITE,t0:p+.3,t1:k,dur:1,anim:'slam'},txt('TODOS PAGOS',960,610,80,p+1.5,{t1:k,cor:GREEN,contorno:NOITE}));
+ for(let i=0;i<4;i++)a.sfx.push(S(p+i*.35,'vibra',.4));a.sfx.push(S(p+1.3,'impact',.7));
+ a.itens.push(prop('fogao',650,910,1,k,{t1:l}),prop('panela',650,680,.8,k,{t1:l}),fig('lucia',1050,1.35,k,{t1:l,estados:[{t:0,pose:'mexendo',expr:'cansado'}]}),txt('A COZINHA FAZ: 60 POR DIA',1100,220,72,k+.6,{t1:l,cor:RED}));
+ a.sfx.push(S(k+.6,'slam',.7));
+ a.itens.push(fig('carlos',960,1.45,l,{estados:[{t:0,pose:'desespero',expr:'surpreso'},{t:T(c,6),pose:'pensando',expr:'pensativo'}]}),txt('300 PROMETIDOS × 60 POSSÍVEIS',960,200,72,l+.2,{t1:T(c,6),cor:RED}));
+ a.sfx.push(S(l+.2,'impact',.6));a.shake=[{t:l+.2,amp:14}];
+ a.itens.push(txt('O QUE ACONTECE AGORA?',960,200,78,T(c,6),{cor:TEAL}));
  cenas.push(a);}
 
 // 2 — CINCO MIL E SETECENTOS
