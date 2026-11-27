@@ -104,7 +104,7 @@ Trabalhe sempre em `/home/user/estudio`. Playwright e FFmpeg já vêm instalados
    **MAIÚSCULAS ESTRATÉGICAS:** 1 a 3 palavras em CAIXA ALTA, sempre na parte que dá o choque ou a virada
    (nunca o título inteiro). Use reticências "…" para criar suspense antes da virada.
    Exemplos aprovados: "Demitido, vendeu 200 marmitas e PAGOU PRA TRABALHAR" (51) ·
-   "Ganhou R$ 5.700 numa MANHÃ… e terminou NO VERMELHO" (49).
+   "Ganhou R$ 5.700 numa MANHÃ… e terminou NO VERMELHO" (50).
 
 ### 4.4 Partes verticais (TikTok/Facebook)
 - 1º ep da semana: `python motor/cortes.py epNN 8` e `python motor/vertical.py epNN <número do ep>`.
