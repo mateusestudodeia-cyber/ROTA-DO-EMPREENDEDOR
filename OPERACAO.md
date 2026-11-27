@@ -6,7 +6,7 @@
 
 ## 0. O que fazer HOJE (decida pela data, fuso America/Sao_Paulo)
 1. **Todo dia:** execute a **Seção 3 — Postagem do dia**.
-2. **Se hoje for domingo:** depois da postagem, execute a **Seção 4C** (números) e a **Seção 4 — Produção da semana seguinte**, aplicando a **Seção 4B** (retenção) em tudo.
+2. **Se hoje for domingo:** depois da postagem, execute a **Seção 4C** (números) e a **Seção 4 — Produção da semana seguinte**, aplicando a **Seção 4B** (retenção) e a **Seção 4D** (fala) em tudo.
 3. Termine com o **relatório curto** (Seção 6).
 
 ## 1. O canal (contexto mínimo)
@@ -56,7 +56,7 @@ Trabalhe sempre em `/home/user/estudio`. Playwright e FFmpeg já vêm instalados
 - Leia `canal/personagem.json` e só o **final** do último `roteiro.md` (o gancho de continuação).
 - Pense em 10 ideias rápidas (cenários/conflitos novos) e escolha 2 que continuem o gancho e o arco do Carlos.
 - Escreva `episodios/epNN/roteiro.md` no **mesmo formato** de `episodios/ep02/roteiro.md` (cenas com Visual, Texto na tela,
-  Emoção/Transição/Edição e o bloco **Narração** com [PAUSA CURTA]/[PAUSA LONGA]/[ÊNFASE]/[TONALIDADE: …]/[RITMO: …]).
+  Emoção/Transição/Edição e o bloco **Narração** com [PAUSA CURTA]/[PAUSA LONGA]/[PAUSA DRAMÁTICA]/[ÊNFASE]/[TONALIDADE: …]/[RITMO: ACELERADO|NORMAL|LENTO]), seguindo a Seção 4D.
 - Estrutura obrigatória (14 etapas): gancho, situação inicial, problema, primeira tentativa, obstáculo, erro, consequência,
   descoberta, virada, nova tentativa, clímax, resolução, lição prática, gancho para o próximo episódio.
 - 1 conceito real de empreendedorismo ensinado pela história; o erro nasce das falhas do Carlos; clímax com decisão difícil
@@ -159,6 +159,31 @@ Nada disso garante viralizar — aumenta a probabilidade. A prova real são as m
     ajustando `cortes.json` em até ±15 s do corte automático e rodando `vertical.py` de novo. A parte deve começar com
     uma frase que funcione sozinha. Legenda das partes: abra com o choque daquela parte, termine com uma pergunta.
 13. **Comentários:** cada episódio termina com uma pergunta concreta para o público responder (gera engajamento).
+
+## 4D. Fala que prende (ritmo, pausas e clareza da narração)
+A narração é um instrumento de atenção. Escreva o texto para o OUVIDO, não para leitura.
+**Clareza**
+1. Frases curtas: ideal ≤ 18 palavras por trecho entre pausas (o `narrar_ep.py` avisa acima de 22). Uma ideia por frase.
+2. Ordem direta (quem faz o quê). Evite frases intercaladas, "o qual", "cujo", voz passiva.
+3. Palavras do dia a dia, como se fala no Brasil ("pra", "tá", "a gente"). Nada de jargão sem explicar na hora.
+4. Números sempre por extenso e arredondados quando der ("quase dois mil e quinhentos"); nunca "R$" ou siglas no texto falado.
+5. A palavra mais importante vai no **fim da frase** (é onde o ouvido presta atenção): "…e no fim do mês, sobrou: **nada**."
+6. Evite palavras estrangeiras e trava-línguas (o Kokoro pronuncia mal); troque por equivalentes em português.
+**Ritmo (variação = atenção; voz uniforme = sono)**
+7. Alterne: trechos de ação com `[RITMO: ACELERADO]` (fala mais rápida), explicações com `[RITMO: NORMAL]`,
+   emoção e revelação com `[RITMO: LENTO]`. Nunca mais de ~40 s no mesmo ritmo.
+8. `[TONALIDADE: TENSA]` deixa a fala um pouco mais contida; `[TONALIDADE: ÍNTIMA]` mais devagar e próxima;
+   `[TONALIDADE: INSPIRADORA]` um pouco mais viva. `[ÊNFASE]` desacelera a frase que precisa pesar.
+9. Sequências em três batidas ("Gás. Embalagem. Fiado.") criam ritmo e são fáceis de lembrar.
+**Pausas (a pausa cria a expectativa; a revelação vem logo depois)**
+10. `[PAUSA CURTA]` (0,3 s) entre frases ligadas; `[PAUSA LONGA]` (0,7 s) quando muda o assunto ou para deixar algo pesar.
+11. `[PAUSA DRAMÁTICA]` (1 s) **imediatamente antes** de uma revelação, número chocante ou virada — e no máximo
+    3 por episódio (se usar demais, perde o efeito).
+12. Pergunta ao público + pausa antes da resposta ("Sabe quanto sobrou? [PAUSA DRAMÁTICA] Nada.") — puxa a atenção de volta.
+13. Nunca uma pausa "vazia": durante toda pausa a imagem muda ou algo se mexe (ver 4.3).
+**Pontuação que o Kokoro entende**
+14. Ponto final = fim firme; vírgula = respiração curta; "…" = suspense; "?" = entonação de pergunta; "!" = energia.
+    Use isso de propósito: a pontuação é a direção de voz do Kokoro.
 
 ## 4C. Aprender com os números (todo domingo, antes de escrever os roteiros)
 - Se o Buffer permitir, consulte as métricas da semana anterior (`get_aggregated_post_metrics` e posts com mais alcance).
