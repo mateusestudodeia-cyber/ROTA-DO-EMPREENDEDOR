@@ -6,7 +6,7 @@
 
 ## 0. O que fazer HOJE (decida pela data, fuso America/Sao_Paulo)
 1. **Todo dia:** execute a **Seção 3 — Postagem do dia**.
-2. **Se hoje for domingo:** depois da postagem, execute a **Seção 4C** (números) e a **Seção 4 — Produção da semana seguinte**, aplicando a **Seção 4B** (retenção) e a **Seção 4D** (fala) em tudo.
+2. **Se hoje for domingo — ou segunda-feira e a semana seguinte ainda não estiver completa na agenda (retomada):** depois da postagem, execute a **Seção 4C** (números) e a **Seção 4 — Produção da semana seguinte**, aplicando a **Seção 4B** (retenção) e a **Seção 4D** (fala) em tudo.
 3. Termine com o **relatório curto** (Seção 6).
 
 ## 1. O canal (contexto mínimo)
@@ -48,6 +48,15 @@ Agende no Buffer **somente** os posts de HOJE. Nunca agende dias futuros (o plan
 ## 4. Produção da semana seguinte (somente aos domingos)
 ### 4.0 Precisa produzir?
 Próxima terça = T. Se `agenda.json` já tem itens com data ≥ T, registre "semana de T já produzida" e pule a Seção 4.
+
+### 4.0b Produção retomável (proteção contra limite de uso)
+- Antes de cada etapa, veja o que já existe e **pule o que já está pronto**: `roteiro.md` → `build/timeline.json` →
+  `cenas.js` → `epNN.mp4` → `thumb.png` → `publicacao.json` → `partes/` → itens na agenda.
+- **Ao terminar cada etapa, faça commit e push imediatamente** ("epNN: roteiro pronto", "epNN: vídeo pronto"…).
+  Assim, se a sessão parar por limite de uso, nada se perde e a próxima execução (segunda) continua de onde parou.
+- Só acrescente os itens em `agenda.json` quando os 2 episódios e todas as partes estiverem prontos (agenda nunca
+  aponta para vídeo inexistente).
+- Economia: leia só o necessário, não repita renders já feitos, use as contact sheets em vez de olhar vídeos.
 
 ### 4.1 Ambiente
 `git pull` e `./motor/preparar_ambiente.sh` (cria o link `/home/user/estudio` → repositório, o `.venv`, baixa o Kokoro do GitHub).
