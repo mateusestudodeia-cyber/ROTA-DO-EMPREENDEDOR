@@ -6,7 +6,7 @@
 
 ## 0. O que fazer HOJE (decida pela data, fuso America/Sao_Paulo)
 1. **Todo dia:** execute a **Seção 3 — Postagem do dia**.
-2. **Se hoje for domingo:** depois da postagem, execute a **Seção 4 — Produção da semana seguinte**.
+2. **Se hoje for domingo:** depois da postagem, execute a **Seção 4C** (números) e a **Seção 4 — Produção da semana seguinte**, aplicando a **Seção 4B** (retenção) em tudo.
 3. Termine com o **relatório curto** (Seção 6).
 
 ## 1. O canal (contexto mínimo)
@@ -135,6 +135,35 @@ Trabalhe sempre em `/home/user/estudio`. Playwright e FFmpeg já vêm instalados
 
 ### 4.6 Publicar
 `git add -A`, commit e `git push` na `main`. Confirme que um vídeo novo responde pela URL raw (HTTP 200/206).
+
+## 4B. Retenção e viralização (psicologia da atenção — aplicar em TODO roteiro, edição, título, thumb e parte)
+Base: lacuna de curiosidade (Loewenstein: a mente quer fechar uma pergunta aberta), ciclos abertos (efeito Zeigarnik),
+novidade/surpresa prendem a atenção, emoção aumenta memória e compartilhamento, e os primeiros 15–30 s decidem quem fica.
+Nada disso garante viralizar — aumenta a probabilidade. A prova real são as métricas (ver 4C).
+1. **Gancho em 3 camadas nos primeiros 5 s:** fala (choque ou pergunta), imagem (algo se movendo/expressão forte) e
+   texto na tela (a frase-choque). Sem logo, sem "olá, pessoal", sem introdução.
+2. **Pergunta central do episódio dita até 20 s** ("pra onde foi o dinheiro?") e respondida só no final.
+3. **Ciclos abertos em cadeia:** antes de fechar uma pergunta, abra a próxima. A cada 60–90 s um **re-gancho** falado
+   ("mas o pior ainda estava por vir…", "e foi aí que tudo mudou").
+4. **Ciclos de gancho → entrega:** toda promessa feita é cumprida dentro do vídeo (promessa sem entrega derruba a retenção).
+5. **Emoção alta e variada:** alterne tensão e alívio (montanha-russa). Pelo menos 1 momento de vergonha/medo,
+   1 de raiva justa ou injustiça, 1 de alívio/vitória por episódio. Rostos com expressão forte nos picos.
+6. **Stakes concretos e pessoais:** dinheiro com número, a família do Carlos, o medo de virar o pai. Nunca abstrato.
+7. **Identificação:** situações que o público vive (CLT, demissão, fiado, preço, dívida, família). O espectador deve pensar
+   "isso é comigo".
+8. **Surpresa a cada cena:** algo que o público não previu (erro de previsão). Evite o óbvio; plante pistas antes.
+9. **Ritmo:** frases curtas na narração; corte ou mudança visual a cada 1,5–2,5 s; nenhuma pausa sem imagem nova.
+10. **Final que puxa o próximo:** cliffhanger forte nos últimos 15 s + cartão do próximo episódio.
+11. **Título + thumbnail coerentes** com o primeiro minuto (o que o título promete aparece logo no começo).
+12. **Partes de TikTok/Facebook:** escolha os pontos de corte num **momento de suspense** (pergunta aberta ou virada),
+    ajustando `cortes.json` em até ±15 s do corte automático e rodando `vertical.py` de novo. A parte deve começar com
+    uma frase que funcione sozinha. Legenda das partes: abra com o choque daquela parte, termine com uma pergunta.
+13. **Comentários:** cada episódio termina com uma pergunta concreta para o público responder (gera engajamento).
+
+## 4C. Aprender com os números (todo domingo, antes de escrever os roteiros)
+- Se o Buffer permitir, consulte as métricas da semana anterior (`get_aggregated_post_metrics` e posts com mais alcance).
+- Registre em `canal/aprendizados.md` (curto): o que teve mais alcance/engajamento e por quê (tema, título, gancho).
+- Use isso para escolher os temas, títulos e ganchos da nova semana. Se não houver métricas, registre "sem dados".
 
 ## 5. Regras gerais
 - Nada pago. Nada inventado como fato real (histórias e valores são fictícios e ilustrativos).
