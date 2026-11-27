@@ -89,6 +89,19 @@ Trabalhe sempre em `/home/user/estudio`. Playwright e FFmpeg já vêm instalados
      dúvida → `reacao('?')`; nervoso → `reacao('suor')`; carinho → `reacao('coracao')`; briga → `reacao('raiva')`;
      número/detalhe → `circulo`/`seta`; pressa/tempo → `velocidade`.
    - O dinamismo mostra o que a narração diz — nunca coisas soltas.
+   **ESTILO E EDIÇÃO — checklist completo (tudo já combinado com o usuário):**
+   - Tudo no traço palito: Carlos, elenco, personagens novos, objetos e cenários (contorno preto grosso, fundo creme,
+     1 cor de destaque). Nada de foto, nada de outro estilo.
+   - Personagem que aparece pela primeira vez entra com **plaquinha do nome** ("DONA LÚCIA · MÃE").
+   - Um elemento novo por frase, entrando na hora em que a frase fala dele (nada aparece antes da hora nem tudo junto).
+   - Números importantes em texto grande com slam + tremida de tela; perdas em vermelho, ganhos em verde.
+   - Virada da história: freeze em preto e branco + arranhão de disco (`risco`) ou glitch.
+   - Flashback: filtro sépia + cartão "X ANOS ANTES" (curto e anunciado).
+   - Trilha por emoção da cena (`leve`, `leve_lenta`, `tensa`, `pad`) e **silêncio** no momento de maior tensão do clímax
+     (`silencios` na cena). A música abaixa sozinha sob a voz (mixer).
+   - Legendas automáticas embaixo; trechos marcados com [ÊNFASE] saem em amarelo.
+   - Textos e balões nunca cortados na borda nem cobrindo rostos (confira na contact sheet).
+   - Final de todo episódio: cartão "PRÓXIMO EP." no canto, com o dia (terça/quinta).
 3. QA antes do render: `node motor/render.js epNN --quadros t1,t2,…` (2 quadros por cena) → contact sheet 4x4 a 480x270
    (`ffmpeg … tile=4x4`). Olhe só a contact sheet; corrija sobreposições e textos cortados.
 4. `./motor/produzir.sh epNN` → `episodios/epNN/epNN.mp4`. Confira duração e volume (−14 LUFS ±1).
