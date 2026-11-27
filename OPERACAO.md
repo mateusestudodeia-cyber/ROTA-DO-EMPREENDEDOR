@@ -100,8 +100,11 @@ Trabalhe sempre em `/home/user/estudio`. Playwright e FFmpeg já vêm instalados
    O título precisa: dar um **choque**, criar **curiosidade**, mostrar que aquilo é de **extrema importância**,
    **chamar a atenção** e ser **interessante de ver**. Escreva 10 opções, dê nota de 0 a 10 em cada um desses 5 critérios
    e escolha a de maior soma. Use o fato mais forte e verdadeiro do episódio (número, perda, virada); nada de promessa
-   falsa. Bons exemplos: "Demitido, trocou a CLT por marmitas e ficou no prejuízo" (55) ·
-   "Ganhou R$ 5.700 numa manhã — e terminou no vermelho" (51).
+   falsa. Tom **emocionante**: virada, contraste ou perda que faz a pessoa sentir algo.
+   **MAIÚSCULAS ESTRATÉGICAS:** 1 a 3 palavras em CAIXA ALTA, sempre na parte que dá o choque ou a virada
+   (nunca o título inteiro). Use reticências "…" para criar suspense antes da virada.
+   Exemplos aprovados: "Demitido, vendeu 200 marmitas e PAGOU PRA TRABALHAR" (51) ·
+   "Ganhou R$ 5.700 numa MANHÃ… e terminou NO VERMELHO" (49).
 
 ### 4.4 Partes verticais (TikTok/Facebook)
 - 1º ep da semana: `python motor/cortes.py epNN 8` e `python motor/vertical.py epNN <número do ep>`.
