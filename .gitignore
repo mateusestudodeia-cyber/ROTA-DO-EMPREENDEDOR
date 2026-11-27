@@ -2,3 +2,6 @@ episodios/*/build/
 modelos/
 .venv/
 __pycache__/
+.venv-tts/
+.venv-cb/
+testes_voz/*.wav
