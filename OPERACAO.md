@@ -119,6 +119,12 @@ Trabalhe sempre em `/home/user/estudio`. Playwright e FFmpeg já vêm instalados
    **DINHEIRO E RISCO NO TÍTULO (regra do usuário):** o título fala de dinheiro (valor em reais, lucro, prejuízo,
    faturamento, dívida) e/ou do risco que o Carlos correu (foi demitido, largou a CLT, arriscou o acerto, apostou tudo).
    Use o fato do episódio a nosso favor: "quem arriscou" + "o que aconteceu com o dinheiro".
+   **FÓRMULA BASEADA EM PESQUISA (positivo + virada negativa):** o que mais atrai é intensidade emocional, contraste e
+   informação incompleta. Estrutura: [desejo/ganho/risco positivo] + "…" + [virada negativa: perda, erro, problema],
+   sem revelar o porquê (o porquê é o vídeo). Palavras de perda/tristeza ("perdeu", "prejuízo", "quebrou", "no vermelho")
+   puxam mais clique que palavras de raiva ou medo. Valor em reais sempre que possível. Nunca entregue a solução no título.
+   Fontes: Robertson et al., Nature Human Behaviour 2023 (Upworthy, 105 mil manchetes: palavra negativa ↑ cliques);
+   Journal of Business Research 2024 e Internet Research 2020 (YouTube: emoção intensa ↑ views; título informativo demais ↓).
    Exemplos aprovados: "DEMITIDO, arriscou o acerto num negócio e PERDEU DINHEIRO" (57) ·
    "Faturou R$ 5.700 numa MANHÃ… e PERDEU DINHEIRO no mesmo dia" (59).
 
