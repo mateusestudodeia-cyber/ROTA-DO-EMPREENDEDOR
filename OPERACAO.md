@@ -105,8 +105,15 @@ Trabalhe sempre em `/home/user/estudio`. Playwright e FFmpeg já vêm instalados
 3. QA antes do render: `node motor/render.js epNN --quadros t1,t2,…` (2 quadros por cena) → contact sheet 4x4 a 480x270
    (`ffmpeg … tile=4x4`). Olhe só a contact sheet; corrija sobreposições e textos cortados.
 4. `./motor/produzir.sh epNN` → `episodios/epNN/epNN.mp4`. Confira duração e volume (−14 LUFS ±1).
-5. Thumbnail: nova entrada em `motor/thumb.js` com o momento MAIS CHOCANTE e verdadeiro do episódio (≤ 3 palavras grandes,
-   número forte, Carlos com expressão forte); `node motor/thumb.js epNN`.
+5. Thumbnail: nova entrada em `motor/thumb.js`; `node motor/thumb.js epNN`. Regras (pesquisa: emoção forte na thumb
+   ↑ views — J. Business Research 2024; rostos e destaque do fundo são comuns nos vídeos que mais explodem — vidIQ 2026):
+   - O momento MAIS CHOCANTE e verdadeiro do episódio, o mesmo da virada do título (título e thumb se completam, não repetem).
+   - **Carlos grande, com expressão extrema** (desespero, choque, raiva, euforia), ocupando ~40% da imagem.
+   - **Um número em reais** grande (perda em vermelho, ganho em verde) e **no máximo 3 palavras**.
+   - **Contraste:** fundo simples e de cor oposta ao sujeito; o Carlos e o número precisam "saltar" mesmo em miniatura.
+     Confira reduzindo para 320x180: se não der para ler/entender, simplifique.
+   - **Lacuna:** mostre o problema (o "o quê"), nunca a solução (o "porquê").
+   - 1 elemento de contexto no máximo (marmita, celular, conta), nada de poluição visual.
 6. `episodios/epNN/publicacao.json` no formato do ep02: título, descrição com capítulos e tags.
    Depois `python motor/capitulos.py epNN <cenas que abrem capítulos>`.
    **TÍTULO DO YOUTUBE (regra do usuário):** no máximo **60 caracteres** (confira com `python3 -c "print(len('título'))"`).
