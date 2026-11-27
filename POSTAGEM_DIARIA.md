@@ -11,6 +11,6 @@ Objetivo: todo dia, agendar no Buffer **somente** os posts daquele dia que estã
    `channelId: agenda.canais[rede]`, `assets: [{video:{url: video}}]`, `text: texto` e:
    - youtube: `metadata.youtube = {type:'regularVideo', title: titulo, categoryId:'27', privacy:'public', madeForKids:false}`
    - facebook: `metadata.facebook = {type:'reel'}`
-   - tiktok: `metadata.tiktok = {title: titulo}`
+   - tiktok: `metadata.tiktok = {title: titulo, isAiGenerated: true}` (o usuário pediu para marcar como conteúdo gerado por IA)
 5. Relatório final curto: o que foi agendado (rede, horário, id) e qualquer erro (ex.: vídeo inacessível).
    Não edite nem apague posts que já existiam. Não poste nada fora da agenda.
