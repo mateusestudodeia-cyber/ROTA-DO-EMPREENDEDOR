@@ -39,6 +39,15 @@ Para cada episódio:
 2. Escreva `episodios/epNN/cenas.js` usando só `biblioteca/` (mesmo estilo de ep01/ep02: personagens palito, objetos no mesmo
    traço, punch-ins, slams, shake, efeitos sonoros e trilha por cena). Novos objetos vão para `biblioteca/cenarios.js`.
    Novos efeitos sonoros: `earshot make "descrição" -o sfx/nome.wav`.
+   **DINAMISMO VISUAL (pedido do usuário, vale do EP03 em diante — público com atenção curta):**
+   - Algo novo na tela a cada 1,5–2,5 s: corte, zoom, objeto entrando, troca de expressão ou de pose. Nada parado.
+   - Câmera sempre viva: punch-in nas frases de impacto, pans entre personagens, zoom-out para revelar.
+   - Personagens sempre se mexendo: troca de expressão e de gesto a cada frase, andando, pulando, apontando, reagindo.
+   - Texto cinético: a palavra-chave de cada frase aparece na tela (slam, digitação, pop), no ritmo da fala.
+   - Inserts rápidos (0,5–1 s) do que está sendo dito: objeto, número, lugar, rosto de outro personagem.
+   - Quebra de padrão a cada ~20–30 s: freeze em P&B, flash, zoom rápido, mudança de cor de fundo, efeito sonoro forte.
+   - Transições curtas (whoosh, zoom-cut, slide) e efeito sonoro em TODA ação visual.
+   - Clareza continua obrigatória: o dinamismo mostra o que a narração diz, nunca coisas soltas.
 3. QA antes do render: `node motor/render.js epNN --quadros t1,t2,...` (2 quadros por cena), contact sheet 4x4 a 480x270,
    corrija sobreposições e textos cortados.
 4. `./motor/produzir.sh epNN` → `episodios/epNN/epNN.mp4`. Confira a duração e o volume (−14 LUFS ±1).

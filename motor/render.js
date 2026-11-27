@@ -6,6 +6,8 @@ const {P,painel,balaoFala,T}=require('../biblioteca/cenarios');
 const EP=process.argv[2], BASE=`/home/user/estudio/episodios/${EP}`, BUILD=`${BASE}/build`;
 const TL=JSON.parse(fs.readFileSync(`${BUILD}/timeline.json`));
 const FPS=30, W=1920, H=1080, CREAM='#FAF7F0';
+// Episódios a partir do EP03 usam o modo dinâmico (câmera automática e personagens sempre em movimento).
+const DINAMICO=parseInt(EP.replace(/\D/g,''))>=3;
 // ---------- API de tempo para a planilha ----------
 const porCena={}; TL.falas.forEach(f=>(porCena[f.cena]=porCena[f.cena]||[]).push(f));
 const cenasIds=Object.keys(porCena).map(Number).sort((a,b)=>a-b);
@@ -48,6 +50,7 @@ function desenha(el,t){
     if(el.andar&&t>=el.andar[0]&&t<el.andar[1]){const c=(t*2.2)%1;pose='andando_a';pose2='andando_b';const ph=c<.5?c*2:2-c*2;bob=-Math.abs(Math.sin(t*Math.PI*2.2))*6;
       return wrap(figura({tipo:el.quem,pose,pose2,t:io(ph),expr:st.expr,bob,espelhar:el.espelhar,tempo:t}));}
     if(st.pular){bob=-Math.abs(Math.sin(t*12))*14}
+    else if(DINAMICO) bob+=Math.sin(t*3.1+hash(el.quem)%5)*2.5;
     const pisc=((t+hash(el.quem)%7)%3.7)<.12;
     if(st.treme) bob+=Math.sin(t*60)*1.5;
     body=figura({tipo:el.quem,pose,pose2,t:k,expr:st.expr,bob,espelhar:el.espelhar,piscar:pisc&&!['rindo','desesperado','cansado'].includes(st.expr),inclinar:st.inclinar||0,tempo:t,objetoMao:st.mao?(P[st.mao]?`<g transform="scale(.35)">${P[st.mao]({})}</g>`:st.mao):''});
@@ -77,7 +80,10 @@ function legenda(t){
 }
 function quadro(t){
   const c=CENAS.find(s=>t>=s.t0&&t<s.t1)||CENAS[CENAS.length-1];
-  const cam=tween(c.cam,t,{s:1,x:960,y:540}); const drift=1+.015*(t-c.t0)/Math.max(1,c.t1-c.t0);
+  let cam=tween(c.cam,t,{s:1,x:960,y:540});
+  if(DINAMICO&&!c.cam){const fs=TL.falas.filter(f=>f.ini>=c.t0&&f.ini<c.t1);const k=fs.filter(f=>t>=f.ini).length;
+    const alvo=[1,1.07,1.13,1.05][k%4], ant=[1,1.07,1.13,1.05][(k+3)%4], f0=fs[k-1]; const u=f0?io(cl((t-f0.ini)/.22)):1;
+    cam={s:ant+(alvo-ant)*u,x:960+((k%3)-1)*40,y:540};} const drift=1+.015*(t-c.t0)/Math.max(1,c.t1-c.t0);
   let sx=0,sy=0;(c.shake||[]).forEach(s=>{const k=cl(1-(t-s.t)/(s.dur||.4));if(t>=s.t&&k>0){sx+=Math.sin(t*90)*s.amp*k;sy+=Math.cos(t*77)*s.amp*k}});
   let fundo=c.fundo||CREAM;(c.fundos||[]).forEach(f=>{if(t>=f.t)fundo=f.cor});
   const filtro=(c.filtros||[]).find(f=>t>=f.t0&&t<f.t1); const ftag=filtro?`filter="url(#${filtro.tipo})"`:'';

@@ -5,7 +5,8 @@ from kokoro_onnx import Kokoro
 ep=sys.argv[1]; base=f'/home/user/estudio/episodios/{ep}'; out=f'{base}/build'; os.makedirs(f'{out}/audio',exist_ok=True)
 md=open(f'{base}/roteiro.md',encoding='utf-8').read()
 cenas=re.split(r'\n## CENA ',md)[1:]
-PAUSA={'CURTA':.5,'LONGA':1.1}; GAP_CENA=.7
+DIN=int(ep[2:])>=3  # do EP03 em diante: pausas menores e fala um pouco mais rápida (mais dinamismo)
+PAUSA={'CURTA':.3,'LONGA':.7} if DIN else {'CURTA':.5,'LONGA':1.1}; GAP_CENA=.4 if DIN else .7
 k=Kokoro('/home/user/estudio/modelos/kokoro-v1.0.onnx','/home/user/estudio/modelos/voices-v1.0.bin')
 tl=[]; t=0.0; SR=24000
 for ci,bloco in enumerate(cenas,1):
@@ -13,7 +14,7 @@ for ci,bloco in enumerate(cenas,1):
     if not m: continue
     txt=' '.join(l[2:] for l in m.group(1).strip().split('\n'))
     partes=re.split(r'\[PAUSA (CURTA|LONGA)\]',txt)   # [texto, tipo, texto, tipo, ...]
-    vel_base=.92; i=0
+    vel_base=1.0 if DIN else .92; i=0
     for j in range(0,len(partes),2):
         seg=partes[j]; pausa=PAUSA.get(partes[j+1],0) if j+1<len(partes) else 0
         if 'RITMO: ACELERADO' in seg: vel_base=1.02
