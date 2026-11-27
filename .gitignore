@@ -5,3 +5,4 @@ __pycache__/
 .venv-tts/
 .venv-cb/
 testes_voz/*.wav
+testes_voz/*.mp3
