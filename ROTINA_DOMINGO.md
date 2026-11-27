@@ -47,6 +47,12 @@ Para cada episódio:
    - Inserts rápidos (0,5–1 s) do que está sendo dito: objeto, número, lugar, rosto de outro personagem.
    - Quebra de padrão a cada ~20–30 s: freeze em P&B, flash, zoom rápido, mudança de cor de fundo, efeito sonoro forte.
    - Transições curtas (whoosh, zoom-cut, slide) e efeito sonoro em TODA ação visual.
+   - **Efeitos animados (`biblioteca/efeitos.js`) — no mínimo 2 por cena**, sempre ligados ao que a fala diz:
+     dinheiro entrando → `chuvaDinheiro` / moedas · perda ou choque → `impacto` + `onda` + `glitch` ·
+     conquista → `confete` + `brilho` · descoberta/ideia → `reacao('!')` / `reacao('ideia')` ·
+     dúvida → `reacao('?')` · nervoso → `reacao('suor')` · carinho → `reacao('coracao')` · briga → `reacao('raiva')` ·
+     número ou detalhe importante → `circulo` / `seta` · pressa, virada, tempo passando → `velocidade` ·
+     palavra-chave → `textoVivo` (quica/balança).
    - Clareza continua obrigatória: o dinamismo mostra o que a narração diz, nunca coisas soltas.
 3. QA antes do render: `node motor/render.js epNN --quadros t1,t2,...` (2 quadros por cena), contact sheet 4x4 a 480x270,
    corrija sobreposições e textos cortados.
