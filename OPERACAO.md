@@ -94,8 +94,14 @@ Trabalhe sempre em `/home/user/estudio`. Playwright e FFmpeg já vêm instalados
 4. `./motor/produzir.sh epNN` → `episodios/epNN/epNN.mp4`. Confira duração e volume (−14 LUFS ±1).
 5. Thumbnail: nova entrada em `motor/thumb.js` com o momento MAIS CHOCANTE e verdadeiro do episódio (≤ 3 palavras grandes,
    número forte, Carlos com expressão forte); `node motor/thumb.js epNN`.
-6. `episodios/epNN/publicacao.json` no formato do ep02: título chocante e verdadeiro (≤ 60 caracteres), descrição com
-   capítulos, tags. Depois `python motor/capitulos.py epNN <cenas que abrem capítulos>`.
+6. `episodios/epNN/publicacao.json` no formato do ep02: título, descrição com capítulos e tags.
+   Depois `python motor/capitulos.py epNN <cenas que abrem capítulos>`.
+   **TÍTULO DO YOUTUBE (regra do usuário):** no máximo **60 caracteres** (confira com `python3 -c "print(len('título'))"`).
+   O título precisa: dar um **choque**, criar **curiosidade**, mostrar que aquilo é de **extrema importância**,
+   **chamar a atenção** e ser **interessante de ver**. Escreva 10 opções, dê nota de 0 a 10 em cada um desses 5 critérios
+   e escolha a de maior soma. Use o fato mais forte e verdadeiro do episódio (número, perda, virada); nada de promessa
+   falsa. Bons exemplos: "Demitido, trocou a CLT por marmitas e ficou no prejuízo" (55) ·
+   "Ganhou R$ 5.700 numa manhã — e terminou no vermelho" (51).
 
 ### 4.4 Partes verticais (TikTok/Facebook)
 - 1º ep da semana: `python motor/cortes.py epNN 8` e `python motor/vertical.py epNN <número do ep>`.
