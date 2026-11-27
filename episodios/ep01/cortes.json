@@ -1,0 +1,66 @@
+[
+ {
+  "parte": 1,
+  "ini": 0.0,
+  "fim": 70.05,
+  "dur": 70.0,
+  "abre": "Duzentas marmitas. Em um mês.",
+  "fecha": "O Carlos riu. Ele sempre ri quando está com medo."
+ },
+ {
+  "parte": 2,
+  "ini": 70.05,
+  "fim": 145.18,
+  "dur": 75.1,
+  "abre": "Porque em cima do guarda-roupa, embrulhada num saco de lixo, tinha uma",
+  "fecha": "Parecia matemática."
+ },
+ {
+  "parte": 3,
+  "ini": 145.18,
+  "fim": 216.22,
+  "dur": 71.0,
+  "abre": "Era chute com cara de matemática.",
+  "fecha": "O Carlos olhou pro caixa minguando e chegou a uma conclusão."
+ },
+ {
+  "parte": 4,
+  "ini": 216.22,
+  "fim": 289.08,
+  "dur": 72.9,
+  "abre": "O problema é que eu tô vendendo pouco.",
+  "fecha": "— Me fala tudo que saiu de dinheiro. Tudo."
+ },
+ {
+  "parte": 5,
+  "ini": 289.08,
+  "fim": 361.15,
+  "dur": 72.1,
+  "abre": "Ingredientes: mil setecentos e dois. Embalagem, talher e sacola: duzen",
+  "fecha": "A Dona Lúcia ouviu tudo da porta da cozinha, com a mão enfaixada."
+ },
+ {
+  "parte": 6,
+  "ini": 361.15,
+  "fim": 436.66,
+  "dur": 75.5,
+  "abre": "— Teu pai era igualzinho. A oficina vivia lotada. Ele dizia que, se su",
+  "fecha": "Com dezenove, cada marmita deixa onze e dez pra pagar as contas do mês"
+ },
+ {
+  "parte": 7,
+  "ini": 436.66,
+  "fim": 507.26,
+  "dur": 70.6,
+  "abre": "Antes disso, é só a conta empatando.",
+  "fecha": "Sobraram vinte e dois reais e sessenta centavos."
+ },
+ {
+  "parte": 8,
+  "ini": 507.26,
+  "fim": 578.18,
+  "dur": 70.9,
+  "abre": "Parece pouco.",
+  "fecha": "A cozinha da Dona Lúcia faz sessenta."
+ }
+]

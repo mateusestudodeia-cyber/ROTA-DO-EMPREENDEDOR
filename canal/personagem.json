@@ -1,0 +1,68 @@
+{
+  "documento": "biblia_do_personagem",
+  "versao": 3,
+  "nota": "Personagem e mundo 100% ficticios. Numeros usados nos episodios sao ilustrativos, nunca estatisticas reais.",
+  "protagonista": {
+    "nome": "Carlos Reis",
+    "idade": 26,
+    "cidade": "Contagem, regiao metropolitana de Belo Horizonte (MG)",
+    "ocupacao_inicial": "Operador de telemarketing ha 4 anos, recem-demitido no episodio 1",
+    "personalidade": "Carismatico, rapido, bem-humorado, vende qualquer coisa numa conversa. Impulsivo e orgulhoso. Transforma ansiedade em piada.",
+    "habilidades": [
+      "Conversa e persuasao (anos de telemarketing)",
+      "Aprende rapido vendo os outros fazerem",
+      "Resiliencia para ouvir 'nao'"
+    ],
+    "falhas": [
+      "Evita olhar numeros: decide no 'feeling'",
+      "Nao pede ajuda; prefere se afundar sozinho a admitir que nao sabe",
+      "Vaidade: mede sucesso por movimento e aplauso, nao por resultado",
+      "Promete demais para agradar"
+    ],
+    "medos": [
+      "Virar o pai: Jorge Reis abriu uma oficina, quebrou endividado e sumiu quando Caio tinha 12 anos",
+      "Que a mae morra trabalhando sem nunca descansar",
+      "Ser 'mais um que tentou e voltou pro call center'"
+    ],
+    "sonhos": [
+      "Dar a mae, Dona Lucia, a primeira viagem da vida dela",
+      "Ter um negocio com o nome da familia que de certo onde o do pai deu errado"
+    ],
+    "historia_de_vida": "Criado pela mae costureira no bairro Eldorado. Largou a faculdade de Administracao no 2o periodo para ajudar em casa. Sempre foi 'o que tem ideia', nunca 'o que termina'.",
+    "objetivo_longo_prazo": "Construir ate os 32 anos um negocio que funcione sem ele precisar estar presente 14 horas por dia.",
+    "conflito_interno": "Precisa provar que nao e o pai, mas o medo de errar como ele o faz ora travar, ora apostar alto demais para provar alguma coisa.",
+    "arco_de_evolucao": [
+      "Fase 1 (ep 1-4): do impulso ao numero. Aprende que movimento nao e lucro.",
+      "Fase 2 (ep 5-9): do 'eu faco tudo' a equipe. Aprende a delegar e a confiar.",
+      "Fase 3 (ep 10-14): crescimento e concorrencia. Tentacao de crescer rapido demais.",
+      "Fase 4 (ep 15+): crise, quase falencia, recomeco consciente. Reencontro com o pai."
+    ]
+  },
+  "elenco_de_apoio": {
+    "Dona Lucia Reis": "Mae, 54 anos. Costureira e cozinheira de mao cheia. Nunca reclama; o cansaco dela e o termometro moral da serie.",
+    "Bia Reis": "Irma, 17 anos. Ironica, entende de redes sociais melhor que todo mundo. Quer fazer Design.",
+    "Tiago Mendes": "Melhor amigo, 27, estudante de Contabilidade a noite. Cetico, chato com planilha, leal. A voz dos numeros.",
+    "Seu Jairo": "Dono de uma loja de ferragens ha 30 anos no bairro. Fala pouco, observa muito. Mentor improvavel.",
+    "Jorge Reis": "Pai ausente. So aparece em lembrancas ate a Fase 4.",
+    "Marcão": "Operador de empilhadeira da fábrica, primeiro cliente, termômetro da confiança.",
+    "Bigode": "Dono da lanchonete da esquina (PF R$ 15), concorrente.",
+    "Dona Rosa": "Vizinha, primeira funcionária paga (EP02).",
+    "Henrique": "Gerente de transportadora, cliente corporativo (EP02→EP03)."
+  },
+  "regras_de_continuidade": [
+    "Caio nunca resolve um problema sem custo emocional ou financeiro.",
+    "Cada episodio muda um cenario, mas o dinheiro, as relacoes e as cicatrizes se acumulam.",
+    "O erro do episodio nasce sempre de uma falha listada acima.",
+    "Todo episodio termina com uma consequencia nova que abre o proximo."
+  ],
+  "identidade_visual_sugerida": {
+    "estilo": "Bonequinho de palito articulado (biblioteca/carlos.js), objetos no mesmo traço (biblioteca/objetos.js)",
+    "assinaturas_carlos": "topete de 3 fios, cachecol azul-petróleo #1E88A8",
+    "folha_modelo": "personagens/carlos/folha_carlos.png"
+  },
+  "episodios": {
+    "EP01": "Precificação: 200 marmitas, −R$ 303, preço R$ 19, ponto de equilíbrio 116/mês",
+    "EP02": "Capacidade/gargalo: 300 pedidos, −R$ 600, linha de montagem, limite 80/dia, recusa R$ 2.500",
+    "EP03 (gancho)": "Formalização: contrato de 400/semana exige nota fiscal"
+  }
+}
