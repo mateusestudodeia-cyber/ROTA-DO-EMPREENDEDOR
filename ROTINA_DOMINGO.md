@@ -54,6 +54,7 @@ Para cada episódio:
 ## 5. Agenda (acrescente em `agenda.json`, sem mexer nos posts antigos)
 - YouTube: 1º episódio na terça T às 18:00; 2º episódio na quinta (T+2) às 18:00 (rede youtube, video, titulo, texto=descrição).
 - 1º episódio: partes 1–8 de terça a sexta, 12:00 e 18:00. 2º episódio: partes 1–6 de sábado a segunda, 12:00 e 18:00.
+- No item do facebook, `facebook_tipo` = 'reel' se a parte tiver até 90 s, senão 'post'.
 - Cada parte gera 2 itens (tiktok e facebook) com o MESMO vídeo e textos DIFERENTES:
   - tiktok: `titulo` curto e chocante (≤ 70 caracteres) + `texto` com "Parte X/N" e hashtags.
   - facebook: `texto` mais longo, com pergunta para comentários, "Parte X de N" e quando sai a próxima.

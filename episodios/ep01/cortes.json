@@ -2,65 +2,65 @@
  {
   "parte": 1,
   "ini": 0.0,
-  "fim": 70.05,
-  "dur": 70.0,
-  "abre": "Duzentas marmitas. Em um mês.",
-  "fecha": "O Carlos riu. Ele sempre ri quando está com medo."
+  "fim": 75.86,
+  "dur": 75.9,
+  "abre": "Esse é o Carlos. Vinte e seis anos.",
+  "fecha": "Mas por dentro, o Carlos tinha um medo. Um medo que vinha do pai."
  },
  {
   "parte": 2,
-  "ini": 70.05,
-  "fim": 145.18,
-  "dur": 75.1,
-  "abre": "Porque em cima do guarda-roupa, embrulhada num saco de lixo, tinha uma",
+  "ini": 75.86,
+  "fim": 146.72,
+  "dur": 70.9,
+  "abre": "Doze anos antes, o pai dele tinha uma oficina. Cobrava o preço mais ba",
   "fecha": "Parecia matemática."
  },
  {
   "parte": 3,
-  "ini": 145.18,
-  "fim": 216.22,
-  "dur": 71.0,
+  "ini": 146.72,
+  "fim": 222.43,
+  "dur": 75.7,
   "abre": "Era chute com cara de matemática.",
-  "fecha": "O Carlos olhou pro caixa minguando e chegou a uma conclusão."
+  "fecha": "Sem entender pra onde ia o dinheiro, o Carlos olhou pro caixa e chegou"
  },
  {
   "parte": 4,
-  "ini": 216.22,
-  "fim": 289.08,
-  "dur": 72.9,
+  "ini": 222.43,
+  "fim": 296.87,
+  "dur": 74.4,
   "abre": "O problema é que eu tô vendendo pouco.",
   "fecha": "— Me fala tudo que saiu de dinheiro. Tudo."
  },
  {
   "parte": 5,
-  "ini": 289.08,
-  "fim": 361.15,
+  "ini": 296.87,
+  "fim": 368.95,
   "dur": 72.1,
   "abre": "Ingredientes: mil setecentos e dois. Embalagem, talher e sacola: duzen",
   "fecha": "A Dona Lúcia ouviu tudo da porta da cozinha, com a mão enfaixada."
  },
  {
   "parte": 6,
-  "ini": 361.15,
-  "fim": 436.66,
-  "dur": 75.5,
+  "ini": 368.95,
+  "fim": 446.0,
+  "dur": 77.1,
   "abre": "— Teu pai era igualzinho. A oficina vivia lotada. Ele dizia que, se su",
   "fecha": "Com dezenove, cada marmita deixa onze e dez pra pagar as contas do mês"
  },
  {
   "parte": 7,
-  "ini": 436.66,
-  "fim": 507.26,
-  "dur": 70.6,
+  "ini": 446.0,
+  "fim": 516.42,
+  "dur": 70.4,
   "abre": "Antes disso, é só a conta empatando.",
-  "fecha": "Sobraram vinte e dois reais e sessenta centavos."
+  "fecha": "Entraram quinhentos e oitenta e nove reais. Duzentos e quarenta e quat"
  },
  {
   "parte": 8,
-  "ini": 507.26,
-  "fim": 578.18,
-  "dur": 70.9,
-  "abre": "Parece pouco.",
+  "ini": 516.42,
+  "fim": 591.74,
+  "dur": 75.3,
+  "abre": "Sobraram vinte e dois reais e sessenta centavos.",
   "fecha": "A cozinha da Dona Lúcia faz sessenta."
  }
 ]
