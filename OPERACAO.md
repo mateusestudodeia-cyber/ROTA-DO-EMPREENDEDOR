@@ -34,7 +34,8 @@
 ## 3. Postagem do dia (Buffer)
 Agende no Buffer **somente** os posts de HOJE. Nunca agende dias futuros (o plano gratuito permite só 10 agendados).
 1. `get_account` → `currentTime` = data de hoje. Organização e canais estão em `agenda.json` (`organizacao`, `canais`).
-2. Em `agenda.json`, pegue os itens cujo `quando` começa com a data de hoje e ainda está no futuro.
+2. **Não leia `agenda.json` inteiro.** Rode `python3 motor/agenda_hoje.py` (mostra só os posts de hoje, com organização
+   e canais) e use os itens cujo `quando` ainda está no futuro.
    Se não houver nenhum, registre "nada para hoje".
 3. Evite duplicidade: `list_posts` da organização; pule itens que já tenham post no mesmo canal e no mesmo horário.
 4. Para cada item, `create_post` com `mode: customScheduled`, `dueAt: quando`, `schedulingType: automatic`,
