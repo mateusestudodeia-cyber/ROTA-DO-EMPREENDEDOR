@@ -17,6 +17,17 @@ o .venv e baixa o modelo de voz. Sempre trabalhe em /home/user/estudio.
   - Estrutura obrigatória de 14 etapas, gancho em 5 s, 1 conceito real de empreendedorismo, erro que nasce das falhas do Carlos,
     clímax com decisão difícil e custo real, final honesto, gancho para o próximo episódio.
   - Toda conta de dinheiro com a conferência escrita no roteiro. Valores fictícios e ilustrativos.
+  - **CLAREZA ACIMA DE TUDO (pedido do usuário: o EP01 deixou o público perdido no começo):**
+    1. Primeiros 20 s, nesta ordem e em linguagem direta: quem é o Carlos ("Esse é o Carlos…"), o que ele quer,
+       o que está em jogo e a pergunta que o episódio vai responder. Nada de números ou cenas soltas antes disso.
+    2. História em ordem cronológica. Flashback só se for essencial, curto e anunciado ("Doze anos antes…").
+    3. Uma ideia por cena. Cada cena começa dizendo onde e quando estamos e o que o Carlos quer naquele momento.
+    4. Cenas ligadas por causa e efeito, dito em voz alta: "por isso…", "então…", "mas…". Nenhuma cena pula sem ligação.
+    5. Nenhuma informação solta: cada personagem, objeto ou número é apresentado no momento em que importa e explicado.
+    6. No máximo um número por frase, sempre com contexto ("200 marmitas em um mês").
+    7. A cada ~2 minutos o narrador relembra onde estamos ("Lembra: ele precisava…").
+    8. O visual mostra exatamente o que a narração está dizendo, sem elementos extras que distraiam.
+    9. Teste final: resuma cada cena em uma frase "o Carlos quer X, mas Y, então Z". Se não der, reescreva a cena.
   - Meta de duração: 10 min → cerca de 1.550 palavras de narração.
   - Revise com os princípios de `jtydhr88/screenwriting-skills` (cena vira algo, entrar tarde/sair cedo, ação > explicação)
     e `nonomnonom/storytelling` (viradas plantadas antes, emoção nascida da ação).
