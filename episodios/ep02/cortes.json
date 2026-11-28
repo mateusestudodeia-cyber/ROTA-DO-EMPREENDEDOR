@@ -2,48 +2,48 @@
  {
   "parte": 1,
   "ini": 0.0,
-  "fim": 91.31,
-  "dur": 91.3,
+  "fim": 84.17,
+  "dur": 84.2,
   "abre": "Esse é o Carlos. Ele vende as marmitas que a mãe dele cozinha, na port",
   "fecha": "Na terça à noite, ele passou na loja de ferragens do Seu Jairo, um sen"
  },
  {
   "parte": 2,
-  "ini": 91.31,
-  "fim": 183.12,
-  "dur": 91.8,
+  "ini": 84.17,
+  "fim": 160.68,
+  "dur": 76.5,
   "abre": "No balcão, um cliente reclamava com uma corrente arrebentada na mão.",
-  "fecha": "E os comentários vieram. \"Chegou fria.\" \"Arroz empapado.\" \"Chegou às t"
+  "fecha": "Três da tarde: o resto começou a cancelar."
  },
  {
   "parte": 3,
-  "ini": 183.12,
-  "fim": 272.33,
-  "dur": 89.2,
-  "abre": "Alguém escreveu: \"golpe?\".",
+  "ini": 160.68,
+  "fim": 246.73,
+  "dur": 86.0,
+  "abre": "E os comentários vieram. \"Chegou fria.\" \"Arroz empapado.\" \"Chegou às t",
   "fecha": "— E quantas a sua mãe monta? Do jeito dela, com capricho?"
  },
  {
   "parte": 4,
-  "ini": 272.33,
-  "fim": 364.06,
-  "dur": 91.7,
+  "ini": 246.73,
+  "fim": 330.32,
+  "dur": 83.6,
   "abre": "O Carlos fez a conta de cabeça.",
   "fecha": "Então a regra virou essa: prato único do dia. Oitenta vagas, abertas à"
  },
  {
   "parte": 5,
-  "ini": 364.06,
-  "fim": 450.88,
-  "dur": 86.8,
+  "ini": 330.32,
+  "fim": 408.6,
+  "dur": 78.3,
   "abre": "O resto vai pra lista de espera.",
   "fecha": "No vídeo de desculpas, os comentários começaram a mudar. \"Chegou quent"
  },
  {
   "parte": 6,
-  "ini": 450.88,
-  "fim": 541.36,
-  "dur": 90.5,
+  "ini": 408.6,
+  "fim": 491.15,
+  "dur": 82.6,
   "abre": "O Marcão mandou um joinha com a boca cheia.",
   "fecha": "Tinha uma família."
  }
