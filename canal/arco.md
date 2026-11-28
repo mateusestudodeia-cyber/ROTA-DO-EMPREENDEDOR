@@ -79,3 +79,47 @@ Running gags e rimas: o caderno, a placa do pai, "paga na sexta", o "sim" que el
 EP03–06 Freelancing e o envelope · EP07–10 IA para pequenos negócios · EP11–14 Produto digital e a virada do Aurélio ·
 EP15–18 Dudu, revenda e estoque · EP19–22 Agência, equipe e primeira demissão · EP23–26 Sociedade, ruptura, prazo final e a verdade.
 Cada arco termina num momento de maior tensão (cliffhanger forte), que vira o gancho do primeiro episódio do arco seguinte.
+
+---
+# O GRANDE ARCO: DO ZERO AO IMPÉRIO (várias temporadas) + O PASSADO DA ESCOLA
+Tudo fictício. A temporada 1 (acima) é o início: **salvar a casa**. Depois disso o Carlos constrói um império de verdade, na ordem em que
+um negócio cresce de verdade (cada fase ensina conceitos reais e custa algo na vida pessoal).
+
+## Temporadas
+- **T1 (EP03–26) — "A Dívida":** salvar a casa e descobrir a verdade sobre o pai. Termina com a família a salvo… e o Carlos percebendo que sobreviver não é construir.
+- **T2 — "A Empresa":** vira empresa de verdade (CNPJ, equipe de 5, primeiro escritório, primeira crise de caixa, primeiro sócio). Termina com a 1ª grande perda.
+- **T3 — "A Escala":** segundo e terceiro negócios, investidor, contratar gente melhor que ele, perder o foco, a vaidade quase destrói o time.
+- **T4 — "O Império":** grupo com várias empresas, mídia, imóveis/investimentos, a imprensa o chama de "gênio" e ele quase repete o erro do pai em escala maior.
+- **T5 — "O Legado":** o que o dinheiro não compra; sucessão, propósito, voltar à rua da oficina. Final emocional.
+Regra de realismo: riqueza leva anos e vem em degraus (R$ mil → dezenas de mil → centenas de mil → milhões), sempre com conta conferida. Nada de salto mágico.
+
+## A história emocional: a escola (a espinha dorsal de coração)
+Plantar desde o EP03/EP04 em **flashbacks curtos em sépia, anunciados** ("Quinze anos antes…"), 1 por episódio no máximo, nunca mais de 20–30 s:
+- **Marina** — a menina que o rejeitou na escola (rejeição pública, na festa/no pátio). Hoje: vida difícil, depois ela precisa de emprego;
+  não é "vilã": ela rejeitou um garoto de 15 anos, ela também tem sua história e dignidade.
+- **Rafael "Rafa" e a turma** — quem ridicularizava o Carlos (apelido, risada, "o filho do falido"). Alguns mudam, alguns não.
+- **Professor Anselmo** — o único que acreditou nele (frase simples que ele carrega a vida toda); reencontro emocionante mais à frente.
+- O apelido humilhante vira, no fim, o nome de algo que o Carlos constrói (reviravolta de orgulho, não de vingança).
+
+### Como a vingança vira grandeza (o que faz as pessoas chorarem e compartilharem)
+1. Anos depois, **vários deles batem na porta da empresa pedindo emprego** (cenas separadas, uma por episódio, em momentos diferentes da carreira).
+2. O Carlos sente o gostinho de poder — e o episódio mostra a **tentação de humilhar**. O roteiro dá tempo a esse impulso.
+3. A decisão final é sempre uma **escolha de caráter com custo**: contratar quem merece uma chance, recusar quem não mudou (com respeito), nunca desforra gratuita.
+4. A Marina em especial: o reencontro é tenso, silencioso e humano; ela precisa do emprego, ele precisa decidir quem quer ser. Um arco de 3 episódios (T2/T3).
+5. Quem foi cruel e **não** mudou paga as consequências naturais (não por vingança do Carlos).
+Princípio emocional do canal: **o maior troco é virar alguém melhor e dar a mão com dignidade.**
+
+## Vida pessoal e reviravoltas (para o público se importar com a PESSOA, não só com o negócio)
+Perdas e vitórias intercaladas: a mãe doente por um tempo, a Bia indo morar fora, o Tiago se afastando (briga por dinheiro), um primeiro amor adulto que
+não entende a rotina, uma traição de sócio, um fracasso público (notícia ruim), uma noite sem dormir antes de um grande contrato, um prêmio, uma festa vazia.
+Cada vitória custa algo; cada perda ensina algo. Alternar sempre: vitória grande → ressaca emocional → nova ameaça.
+
+## Regras de emoção em todo episódio (aplicar com a Seção 4B)
+- 1 momento de **gente de verdade**: silêncio, olhar, objeto que lembra o passado (a placa, o caderno, o crachá do call center, o apelido).
+- 1 pergunta moral no ar ("ele vai perdoar?", "ele vai contratar?") respondida só no fim ou no episódio seguinte.
+- A música cai e a fala fica íntima nos pontos de maior carga; usar [PAUSA DRAMÁTICA] no máximo 3 vezes, sempre antes da virada emocional.
+- Pessoas reais NUNCA são personagens; histórias de escola e empresa são 100% inventadas e ilustrativas.
+
+## Placar do império (cartão fixo, a partir da T2)
+Faturamento mensal · nº de funcionários · empresas do grupo · "quem já pediu emprego" (lista que cresce, com os nomes da escola).
+Dá ao público uma razão para voltar: ver a lista crescer e saber **quem** será o próximo a bater na porta.
