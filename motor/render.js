@@ -7,7 +7,7 @@ const EP=process.argv[2], BASE=`/home/user/estudio/episodios/${EP}`, BUILD=`${BA
 const TL=JSON.parse(fs.readFileSync(`${BUILD}/timeline.json`));
 const FPS=30, W=1920, H=1080, CREAM='#FAF7F0';
 // Episódios a partir do EP03 usam o modo dinâmico (câmera automática e personagens sempre em movimento).
-const DINAMICO=parseInt(EP.replace(/\D/g,''))>=3;
+const DINAMICO=true; // todos os episódios no modo dinâmico
 // ---------- API de tempo para a planilha ----------
 const porCena={}; TL.falas.forEach(f=>(porCena[f.cena]=porCena[f.cena]||[]).push(f));
 const cenasIds=Object.keys(porCena).map(Number).sort((a,b)=>a-b);

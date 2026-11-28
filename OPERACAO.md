@@ -79,7 +79,7 @@ Trabalhe sempre em `/home/user/estudio`. Playwright e FFmpeg já vêm instalados
   5. Nada solto: personagem, objeto ou número explicado na hora em que aparece; no máximo 1 número por frase.
   6. A cada ~2 min o narrador relembra onde estamos ("Lembra: …").
   7. Teste: cada cena cabe em "o Carlos quer X, mas Y, então Z".
-- Meta: ~1.600 palavras de narração (≈ 9–10 min no modo dinâmico).
+- Meta: ~1.600 palavras de narração (≈ 9 min no modo dinâmico, que vale para todos os episódios).
 - Atualize `canal/personagem.json` (seção `episodios`) com o resumo dos 2 novos.
 
 ### 4.3 Vídeos (para cada episódio)
@@ -94,6 +94,8 @@ Trabalhe sempre em `/home/user/estudio`. Playwright e FFmpeg já vêm instalados
    - Palavra-chave de cada frase na tela (slam, digitação, `textoVivo`).
    - Inserts rápidos (0,5–1 s) do que é dito. Quebra de padrão a cada 20–30 s (freeze P&B, flash, glitch, cor).
    - Transições curtas e efeito sonoro em TODA ação.
+   - Jeito mais barato de aplicar: no fim do `cenas.js`, uma chamada a `dinamizar(cenas,T,CX,[[cena,trecho,dt,'efeito',x,y,{opções}],…])`
+     de `biblioteca/efeitos.js` (modelo pronto no fim de `episodios/ep01/cenas.js`; reações vão sozinhas na cabeça do Carlos, com som).
    - **Mínimo 2 efeitos de `biblioteca/efeitos.js` por cena**, ligados à fala: dinheiro entrando → `chuvaDinheiro`;
      perda/choque → `impacto`+`onda`+`glitch`; conquista → `confete`+`brilho`; descoberta → `reacao('!')`/`reacao('ideia')`;
      dúvida → `reacao('?')`; nervoso → `reacao('suor')`; carinho → `reacao('coracao')`; briga → `reacao('raiva')`;

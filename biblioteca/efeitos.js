@@ -60,4 +60,22 @@ const textoVivo=(txt,x,y,t0,{dur=2,sz=90,cor=INK,anim='quica'}={})=>svg(t0,dur,(
   dy=anim==='quica'?-Math.abs(Math.sin(t*9))*14:0,rot=anim==='balanca'?Math.sin(t*10)*5:0;
   return `<g transform="translate(${x},${y+dy}) rotate(${rot}) scale(${e})"><text font-family="DejaVu Sans" font-weight="900" font-size="${sz}" fill="${cor}" text-anchor="middle" stroke="#FAF7F0" stroke-width="${sz/7}" paint-order="stroke">${txt}</text></g>`});
 
-module.exports={impacto,chuvaDinheiro,confete,velocidade,reacao,circulo,seta,brilho,onda,glitch,textoVivo};
+
+// Aplica efeitos em lote, sincronizados com a fala. Cada item: [cena, trecho, dt, efeito, x, y, opções].
+// Reações ('!','?','suor','coracao','raiva','ideia') vão na cabeça do Carlos da cena (CX[c]=[x,escala]); x/y opcionais.
+// impacto → atrás dos itens; onda/glitch/velocidade/confete/chuvaDinheiro/brilho/circulo/seta/textoVivo → camada fixa.
+// Cada efeito ganha seu efeito sonoro e os choques (impacto/glitch) ganham flash + tremida.
+const SOM={reacao:['pop',.35],velocidade:['whoosh',.5],glitch:['risco',.45],confete:['ding',.5],chuvaDinheiro:['moeda',.5],circulo:['caneta',.45],seta:['caneta',.4],impacto:['impact',.7],brilho:['ding',.3],textoVivo:['pop',.4]};
+const REA=['!','?','suor','coracao','raiva','ideia'];
+function dinamizar(cenas,T,CX,lista){lista.forEach(([c,i,dt,k,x,y,o={}])=>{const a=cenas[c-1];if(!a)return;const t=T(c,i,dt||0);
+  a.fixos=a.fixos||[];a.sfx=a.sfx||[];let el,camada='fixos',som;
+  if(REA.includes(k)){const [cx,s]=CX[c]||[960,1.35];el=reacao(k,x??cx+95*s,y??910-252*s-125*s,t,o);camada='itens';som=SOM.reacao}
+  else if(k==='impacto'){el=impacto(x,y,t,o);camada='atras';som=SOM.impacto;a.flash=(a.flash||[]).concat([t]);a.shake=(a.shake||[]).concat([{t,amp:14}])}
+  else if(k==='glitch'){el=glitch(t,o);som=SOM.glitch;a.flash=(a.flash||[]).concat([t])}
+  else if(k==='velocidade'||k==='chuvaDinheiro'){el=({velocidade,chuvaDinheiro})[k](t,o);som=SOM[k]}
+  else if(k==='textoVivo'){el=textoVivo(o.txt,x,y,t,o);som=SOM.textoVivo}
+  else {el=({onda,confete,brilho,circulo,seta})[k](x,y,t,o);som=SOM[k]}
+  if(camada==='atras')a.itens.unshift(el);else a[camada].push(el);
+  if(som&&!o.mudo)a.sfx.push({t,n:som[0],v:som[1]});});return cenas}
+
+module.exports={dinamizar,impacto,chuvaDinheiro,confete,velocidade,reacao,circulo,seta,brilho,onda,glitch,textoVivo};

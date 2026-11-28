@@ -150,7 +150,7 @@ const cenas=[];
  const s3=T(c,3),d3=dur(c,3);
  [['Paga na sexta.',0],['A gente dá um jeito.',.33],['Chega até 12h30.',.66]].forEach(([s,f],k)=>a.itens.push(bal(s,1250+k*60,330+k*180,s3+d3*f,T(c,4,.8))));
  a.itens.push(prop('corrente',1300,560,.9,T(c,4,.8),{t1:T(c,5),args:{n:5,fraco:2,partido:true}}));a.sfx.push(S(T(c,4,.8),'corrente',.7));
- a.itens.push(txt('CRESCER ALÉM DO QUE VOCÊ AGUENTA',1150,330,60,T(c,5)),txt('= PROMESSA QUEBRADA EM ESCALA',1150,450,66,T(c,6),{cor:RED}));
+ a.itens.push(txt('CRESCER ALÉM DO QUE VOCÊ AGUENTA',1080,330,52,T(c,5)),txt('= PROMESSA QUEBRADA EM ESCALA',1150,450,66,T(c,6),{cor:RED}));
  a.sfx.push(S(T(c,5),'slam',.5),S(T(c,6),'impact',.7));
  cenas.push(a);}
 
@@ -214,7 +214,7 @@ const cenas=[];
  const r=[T(c,1),T(c,2),T(c,2,2),T(c,3)];
  a.itens.push({tipo:'painel',estilo:'pao',titulo:'O QUE O SEU JAIRO FARIA',x:1080,y:110,s:1,w:1360,t0:ini(c),t1:T(c,4),anim:'pop',linhas:['1. Desenhe as etapas até o cliente','2. Quanto a etapa mais lenta faz por hora?',{t:'   → essa é a sua capacidade de verdade',c:TEAL,b:1},'3. Venda até esse limite. O resto: lista de espera'],linhasT:r});
  r.forEach(t=>a.sfx.push(S(t,'tick',.5)));
- a.itens.push(txt('LISTA DE ESPERA = CLIENTE ESPERANDO',960,360,66,T(c,4)),txt('PROMESSA QUEBRADA = CLIENTE INDO EMBORA',960,500,66,T(c,5),{cor:RED}));
+ a.itens.push(txt('LISTA DE ESPERA = CLIENTE ESPERANDO',1000,330,54,T(c,4)),txt('PROMESSA QUEBRADA = CLIENTE INDO EMBORA',1000,440,54,T(c,5),{cor:RED}));
  a.sfx.push(S(T(c,4),'slam',.6),S(T(c,5),'impact',.7));a.shake=[{t:T(c,5),amp:12}];
  cenas.push(a);}
 
@@ -234,5 +234,23 @@ const cenas=[];
  a.itens.push(txt('Ele não tinha empresa.',960,180,70,T(c,8),{anim:'fade'}),txt('Tinha uma família.',960,280,80,T(c,9),{anim:'fade',cor:TEAL}));
  a.itens.push(txt('TERÇA · EP. 3',1650,90,48,F(c,9,.5),{cor:TEAL,anim:'fade'}));
  cenas.push(a);}
+
+// ---- DINAMISMO (refeito no modo dinâmico): efeitos ligados à fala, ≥2 por cena ----
+require('../../biblioteca/efeitos').dinamizar(cenas,T,{1:[560,1.4],2:[1100,1.4],3:[300,1.3],4:[1700,1.3],5:[380,1.35],6:[960,1.4],7:[1100,1.4],8:[420,1.3],9:[600,1.4],10:[200,1.2],11:[480,1.35],12:[960,1.35],13:[260,1.3],14:[480,1.35]},[
+ [1,2,0,'velocidade'],[1,3,0,'chuvaDinheiro',0,0,{n:16}],[1,4,0,'onda',960,500],[1,4,0,'glitch'],[1,5,0,'?'],
+ [2,0,0,'!',640,380],[2,2,0,'chuvaDinheiro',0,0,{n:18}],[2,3,0,'brilho',1250,180,{r:300}],[2,4,0,'confete',1100,350],[2,7,0,'suor'],[2,8,0,'ideia'],
+ [3,1,0,'velocidade'],[3,4,0,'?'],[3,5,0,'circulo',960,300,{rx:420,ry:90,mudo:true}],[3,7,0,'glitch'],
+ [4,0,0,'velocidade'],[4,3,0,'suor'],[4,5,0,'onda',960,500],[4,6,0,'glitch'],[4,7,0,'circulo',1100,345,{rx:330,ry:70}],
+ [5,1,0,'impacto',1150,220,{r:300}],[5,3,0,'velocidade'],[5,5,0,'suor'],[5,6,0,'glitch'],
+ [6,0,0,'velocidade'],[6,2,0,'suor'],[6,4,0,'impacto',960,230,{r:360,cor:'#E4572E'}],[6,5,0,'onda',960,500],[6,12,0,'glitch'],[6,12,.2,'onda',960,500],
+ [7,2,0,'circulo',960,450,{rx:380,ry:90}],[7,3,0,'glitch'],[7,4,0,'!'],[7,6,0,'coracao'],
+ [8,3,0,'seta',960,500,{de:[-320,-220]}],[8,8,0,'circulo',960,805,{rx:470,ry:85}],[8,9,0,'ideia'],[8,11,0,'impacto',960,820,{r:340}],
+ [9,0,0,'ideia'],[9,3,0,'velocidade'],[9,5,0,'onda',960,500],[9,6,0,'glitch'],
+ [10,0,0,'velocidade'],[10,3,0,'brilho',960,170,{r:320}],[10,5,0,'circulo',1720,380,{rx:140,ry:75}],[10,9,0,'suor'],
+ [11,1,0,'chuvaDinheiro',0,0,{moeda:true,n:14}],[11,2,0,'!'],[11,5,0,'impacto',960,300,{r:420}],[11,5,0,'brilho',960,300,{r:360}],[11,8,0,'suor'],[11,12,0,'glitch'],[11,16,0,'ideia'],
+ [12,1,0,'confete',1300,300],[12,1,.2,'brilho',1300,300,{r:330}],[12,3,0,'coracao'],[12,5,0,'chuvaDinheiro',0,0,{moeda:true,n:12}],
+ [13,0,0,'ideia'],[13,1,0,'velocidade'],[13,5,0,'onda',1000,440],[13,5,0,'glitch'],
+ [14,0,0,'!'],[14,3,0,'brilho',960,200,{r:420}],[14,5,0,'impacto',960,200,{r:380}],[14,5,0,'onda',960,200],[14,8,0,'glitch'],[14,9,0,'coracao'],
+]);
 
 return cenas;};

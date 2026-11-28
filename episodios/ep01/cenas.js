@@ -254,7 +254,7 @@ const cenas=[];
  const r=[T(c,1),T(c,2),T(c,3)];
  a.itens.push({tipo:'painel',estilo:'quadro',titulo:'ANTES DE ESCOLHER O PREÇO',x:1100,y:120,s:1,w:1300,t0:ini(c),t1:T(c,4),anim:'pop',linhas:['1. Tudo que cada venda gasta','   (inclusive o que parece "de graça")','2. O que sai todo mês + o SEU salário',{t:'3. Só então: o preço',c:'#1E88A8',b:1}],linhasT:[r[0],r[0]+.8,r[1],r[2]]});
  r.forEach(t=>a.sfx.push(S(t,'tick',.5)));
- a.itens.push(txt('VENDER MUITO COM PREJUÍZO',960,380,84,T(c,4)),txt('= QUEBRAR MAIS RÁPIDO',960,520,96,T(c,5),{cor:'#E4572E'}));
+ a.itens.push(txt('VENDER MUITO COM PREJUÍZO',960,300,84,T(c,4)),txt('= QUEBRAR MAIS RÁPIDO',960,430,96,T(c,5),{cor:'#E4572E'}));
  a.sfx.push(S(T(c,4),'slam',.6),S(T(c,5),'impact',.7));a.shake=[{t:T(c,5),amp:14}];
  cenas.push(a);}
 
@@ -270,5 +270,25 @@ const cenas=[];
  a.itens.push(txt('CAPACIDADE: 60',960,760,120,T(c,4,1.4),{cor:'#E4572E',contorno:'#22293D'}));a.sfx.push(S(T(c,4,1.4),'slam',.8));
  a.itens.push(txt('QUINTA · EP. 2',1650,90,48,F(c,4,.6),{cor:'#1E88A8',contorno:'#22293D',anim:'fade'}));
  cenas.push(a);}
+
+// ---- DINAMISMO (refeito no modo dinâmico): efeitos ligados à fala, ≥2 por cena ----
+require('../../biblioteca/efeitos').dinamizar(cenas,T,{1:[700,1.45],2:[950,1.4],3:[980,1.35],4:[1260,1.4],5:[420,1.4],6:[430,1.35],8:[430,1.4],9:[960,1.3],10:[600,1.35],11:[600,1.4],12:[960,1.3],13:[380,1.35],14:[400,1.35],15:[300,1.35]},[
+ [1,1,.3,'!'],[1,3,.3,'confete',1300,260],[1,4,.6,'impacto',1300,300,{r:300}],[1,4,.6,'onda',1300,300],[1,4,.5,'glitch'],[1,5,0,'?'],[1,6,0,'suor'],
+ [2,2,1.4,'!'],[2,3,0,'impacto',960,200,{r:320}],[2,3,0,'glitch'],[2,4,1,'brilho',960,200,{r:330}],[2,5,0,'velocidade'],
+ [3,2,0,'suor'],[3,3,0,'suor'],[3,5,0,'onda',960,500],[3,5,.2,'glitch'],[3,6,0,'!'],
+ [4,0,.4,'ideia'],[4,1,.3,'!'],[4,3,0,'velocidade'],[4,4,0,'brilho',960,560,{r:260}],
+ [5,1,0,'?'],[5,3,0,'ideia'],[5,5,0,'brilho',960,300,{r:300}],[5,7,0,'glitch'],[5,7,.2,'suor'],
+ [6,0,0,'chuvaDinheiro',0,0,{moeda:true,n:14}],[6,1,0,'velocidade'],[6,4,0,'!'],[6,6,0,'confete',960,300],[6,6,.3,'coracao'],
+ [7,1,.8,'onda',960,170],[7,1,.7,'glitch'],[7,2,.3,'circulo',300,505,{rx:210,ry:55}],[7,3,0,'velocidade'],
+ [8,1,0,'!'],[8,2,0,'velocidade'],[8,4,0,'circulo',960,180,{rx:380,ry:75}],[8,6,0,'glitch'],[8,6,.2,'suor'],
+ [9,0,0,'onda',960,600],[9,2,0,'suor'],[9,6,0,'onda',960,420],[9,6,0,'glitch'],[9,7,0,'?'],
+ [10,1,0,'?'],[10,5,0,'circulo',1400,560,{rx:330,ry:90}],[10,8,0,'glitch'],[10,8,.1,'onda',960,540],[10,8,.4,'!'],[10,11,0,'suor'],
+ [11,1,0,'suor'],[11,2,0,'glitch'],[11,4,0,'velocidade'],[11,6,0,'ideia'],
+ [12,1,0,'velocidade'],[12,3,0,'ideia'],[12,7,0,'impacto',960,560,{r:430}],[12,7,0,'onda',960,560],[12,8,0,'brilho',960,560,{r:340}],
+ [13,3,0,'raiva',null,null],[13,4,0,'suor'],[13,6,0,'!'],[13,9,0,'glitch'],[13,10,0,'suor'],
+ [14,1,0,'chuvaDinheiro',0,0,{moeda:true,n:12}],[14,4,0,'confete',960,300],[14,5,0,'coracao'],[14,7,0,'!'],
+ [15,0,0,'ideia'],[15,1,0,'velocidade'],[15,5,0,'onda',960,430],[15,5,0,'glitch'],
+ [16,2,0,'velocidade'],[16,3,.9,'impacto',960,500,{r:420}],[16,4,1.4,'circulo',960,745,{rx:470,ry:95}],[16,4,1.3,'glitch'],
+]);
 
 return cenas;};
