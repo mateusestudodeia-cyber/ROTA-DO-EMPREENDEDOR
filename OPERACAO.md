@@ -63,6 +63,7 @@ Próxima terça = T. Se `agenda.json` já tem itens com data ≥ T, registre "se
 Trabalhe sempre em `/home/user/estudio`. Playwright e FFmpeg já vêm instalados.
 
 ### 4.2 Roteiros (EP n e EP n+1; n = maior `episodios/epXX` + 1)
+- Leia `canal/arco.md` (direção do dono: Carlos empreendedor em série, Claude Code, livros reais, mentores FICTÍCIOS, evolução). Nunca pessoas reais como personagens com falas inventadas.
 - Leia `canal/personagem.json` e só o **final** do último `roteiro.md` (o gancho de continuação).
 - Pense em 10 ideias rápidas (cenários/conflitos novos) e escolha 2 que continuem o gancho e o arco do Carlos.
 - Escreva `episodios/epNN/roteiro.md` no **mesmo formato** de `episodios/ep02/roteiro.md` (cenas com Visual, Texto na tela,
